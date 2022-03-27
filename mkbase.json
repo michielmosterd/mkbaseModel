@@ -2,6 +2,7 @@
     "class" : "mkbase.mkbase",
     "type" : "NONE",
     "imports": [
+        "mkbase.company",
         "mkbase.item",
         "mkbase.sector",
         "mkbase.superRegio",

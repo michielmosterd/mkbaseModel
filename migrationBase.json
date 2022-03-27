@@ -39,44 +39,65 @@
             "source": "nl",
             "target": "name",
             "type": "TEXT"
-          }, 
+          },
           {
             "source": "fr",
             "target": "sectorFr",
             "type": "TEXT"
           }
         ],
-        "relations" : [
-        ]
-      }, {
-        "source" : "27",
-        "target" : "mkbase.regioSite",
-        "fields" : [ {
-          "source" : "regioCode",
-          "target" : "code",
-          "type" : "TEXT"
-        }, {
-          "source" : "regioNaamNL",
-          "target" : "name",
-          "type" : "TEXT"
-        }, {
-          "source" : "regionNaamFR",
-          "target" : "naamFr",
-          "type" : "TEXT"
-        } ],
-        "relations" : [ ]
+        "relations": []
+      },
+      {
+        "source": "27",
+        "target": "mkbase.regioSite",
+        "fields": [
+          {
+            "source": "regioCode",
+            "target": "code",
+            "type": "TEXT"
+          },
+          {
+            "source": "regioNaamNL",
+            "target": "name",
+            "type": "TEXT"
+          },
+          {
+            "source": "regionNaamFR",
+            "target": "naamFr",
+            "type": "TEXT"
+          }
+        ],
+        "relations": []
+      },
+      {
+        "source": "2",
+        "target": "commons.company",
+        "prefix": "COMPANY",
+        "fields": [
+          {
+            "source": "Naam",
+            "target": "name",
+            "type": "TEXT",
+            "defaultValue": "(onbekend)"
+          },
+          {
+            "source": "URL",
+            "target": "companyWebsite",
+            "type": "HYPERLINK"
+          }
+        ],
+        "relations": []
       }
     ],
-    "valueMap" : {
-    },
-    "mnRelations" : [ {
-      "sourceFrom" : "29",
-      "targetFrom" : "mkbase.superRegio",
-      "sourceTo" : "regioSite",
-      "targetTo" : "mkbase.subRegio"
-    } ]
+    "valueMap": {},
+    "mnRelations": [
+      {
+        "sourceFrom": "29",
+        "targetFrom": "mkbase.superRegio",
+        "sourceTo": "regioSite",
+        "targetTo": "mkbase.subRegio"
+      }
+    ]
   }
 }
-
-
-

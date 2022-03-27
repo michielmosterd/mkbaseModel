@@ -1,0 +1,19 @@
+{
+    "class": "mkbase.company",
+    "extends": "commons.company",
+    "type": "EXTENSION",
+    "valueTypes": [
+        {
+            "name": "companyWebsite",
+            "dataType": "HYPERLINK",
+            "enabled": true,
+            "required": false
+        }
+    ],
+    "formulas": [
+        {
+            "valueType": "objectLabel",
+            "formula": "company"
+        }
+    ]
+}

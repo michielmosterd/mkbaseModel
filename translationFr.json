@@ -298,22 +298,31 @@
     "class" : "commons.item"
   }, {
     "language" : "fr",
-    "singular" : "Entiteit",
-    "plural" : "Entiteit",
+    "singular" : "Entreprise",
+    "plural" : "Entreprise",
     "valueTypeLabels" : {
-      "followUp" : "Suivi",
-      "website" : "Site web",
-      "ingevoerdDoor" : "Importé par",
-      "transeoMarketplace" : "Transeo Marketplace",
-      "BedrijfsNaam" : "Nom",
-      "profielnummer" : "Field.Profielnummer",
-      "land" : "Pays",
-      "eersteContact" : "Premier contact",
-      "sector" : "Secteur",
-      "naceCode" : "Nace code",
-      "contractsdatum" : "Date du contrat",
-      "contractvorm" : "contrat"
+      "name" : "Nom de l'entreprise",
+      "companyWebsite": "Site web"
     },
+    "class" : "commons.company"
+  }, {
+      "language" : "fr",
+      "singular" : "Entiteit",
+      "plural" : "Entiteit",
+      "valueTypeLabels" : {
+        "followUp" : "Suivi",
+        "website" : "Site web",
+        "ingevoerdDoor" : "Importé par",
+        "transeoMarketplace" : "Transeo Marketplace",
+        "BedrijfsNaam" : "Nom",
+        "profielnummer" : "Field.Profielnummer",
+        "land" : "Pays",
+        "eersteContact" : "Premier contact",
+        "sector" : "Secteur",
+        "naceCode" : "Nace code",
+        "contractsdatum" : "Date du contrat",
+        "contractvorm" : "contrat"
+      },
     "generalLabels" : { },
     "class" : "mkbase.entiteit"
   }, {
