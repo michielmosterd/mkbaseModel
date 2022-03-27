@@ -1,28 +1,23 @@
 {
-  "class": "mkbase.superRegio",
-  "type": "ABSTRACT",
-  "relations": [
-    {
-      "type": "mkbase.subRegio",
-      "multiple": true
-    }
-  ],
-  "inherits": "mkbase.regioSite",
+  "class" : "mkbase.subRegio",
+  "type" : "ABSTRACT",
+  "inherits" : "mkbase.regioSite",  
   "layouts": [
     {
       "labelKey": {
         "type": "DATA_CLASS_PLURAL",
-        "name": "mkbase.subRegio"
+        "name": "mkbase.superRegio"
       },
       "type": "OBJECT_DASHBOARD",
       "items": [
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.subRegio",
+          "relatedClass": "mkbase.superRegio",
           "showTitle": false
         }
       ],
       "tabPage": true
     }
   ]
+
 }

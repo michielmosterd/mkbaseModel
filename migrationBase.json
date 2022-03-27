@@ -68,6 +68,15 @@
       }
     ],
     "valueMap" : {
-    }
+    },
+    "mnRelations" : [ {
+      "sourceFrom" : "29",
+      "targetFrom" : "mkbase.superRegio",
+      "sourceTo" : "regioSite",
+      "targetTo" : "mkbase.subRegio"
+    } ]
   }
 }
+
+
+
