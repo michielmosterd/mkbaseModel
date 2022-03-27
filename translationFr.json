@@ -651,11 +651,11 @@
   }, {
     "language" : "fr",
     "singular" : "Region (website)",
-    "plural" : "Region (website)",
+    "plural" : "Regions (website)",
     "valueTypeLabels" : {
-      "naamFr" : "Nom FR",
+      "naamFr" : "Région FR",
       "code" : "Code",
-      "regioNl" : "Région (NL)"
+      "name" : "Région (NL)"
     },
     "generalLabels" : { },
     "class" : "mkbase.regioSite"

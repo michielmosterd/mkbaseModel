@@ -57,7 +57,7 @@
           "type" : "TEXT"
         }, {
           "source" : "regioNaamNL",
-          "target" : "regioNl",
+          "target" : "name",
           "type" : "TEXT"
         }, {
           "source" : "regionNaamFR",

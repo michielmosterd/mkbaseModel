@@ -7,11 +7,6 @@
     "enabled" : true,
     "required" : true
   }, {
-    "name" : "regioNl",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : true
-  }, {
     "name" : "naamFr",
     "dataType" : "TEXT",
     "enabled" : true,
@@ -21,9 +16,6 @@
   "formulas" : [ {
     "valueType" : "objectLabel",
     "formula" : "regioSite"
-  }, {
-    "valueType" : "name",
-    "formula" : "{{regioNl}}"
   } ],
   "views" : [ {
     "defaultView" : true,
@@ -39,11 +31,7 @@
     "type" : "OBJECT_FORM_DASHBOARD",
     "items" : [ {
       "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "regioNl",
+      "name" : "name",
       "header" : false
     }, {
       "type" : "FIELD",
@@ -64,10 +52,6 @@
     }, {
       "type" : "FIELD",
       "name" : "objectLabel",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "regioNl",
       "header" : false
     }, {
       "type" : "FIELD",

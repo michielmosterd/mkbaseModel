@@ -650,12 +650,12 @@
     "class" : "mkbase.teOnderzoekenMatch"
   }, {
     "language" : "en",
-    "singular" : "Regio (site)",
-    "plural" : "Regio (site)",
+    "singular" : "Region (site)",
+    "plural" : "Regions (site)",
     "valueTypeLabels" : {
-      "naamFr" : "Name FR",
-      "code" : "Region",
-      "regioNl" : "Region (NL)"
+      "naamFr" : "Region (FR)",
+      "code" : "Code",
+      "name" : "Region (NL)"
     },
     "generalLabels" : { },
     "class" : "mkbase.regioSite"
