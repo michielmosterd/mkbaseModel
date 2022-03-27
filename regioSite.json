@@ -1,0 +1,96 @@
+{
+  "class" : "mkbase.regioSite",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "code",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true
+  }, {
+    "name" : "regioNl",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true
+  }, {
+    "name" : "naamFr",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true
+  } ],
+  "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "regioSite"
+  }, {
+    "valueType" : "name",
+    "formula" : "{{regioNl}}"
+  } ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "summary",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "regioNl",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "naamFr",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "code",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "regioNl",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "naamFr",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "code",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "labelKey" : {
+      "type" : "DATA_CLASS_PLURAL",
+      "name" : "mkbase.entiteit"
+    },
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATED_VIEW",
+      "relatedClass" : "mkbase.entiteit",
+      "showTitle" : false
+    } ],
+    "tabPage" : true
+  } ],
+  "inherits" : "commons.item"
+}

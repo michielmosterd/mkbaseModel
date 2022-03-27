@@ -1,0 +1,106 @@
+{
+  "class" : "mkbase.memo",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "followUp",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.entiteit",
+    "required" : false,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{<4.2><129>}"
+  } ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.entiteit"
+    }, {
+      "type" : "FIELD",
+      "name" : "summary",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "datum",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "followUp",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "kernwoord",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "resultaatContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "opmerking",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "schrijverMemo",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.entiteit"
+    }, {
+      "type" : "FIELD",
+      "name" : "datum",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "followUp",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "kernwoord",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "resultaatContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "opmerking",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "schrijverMemo",
+      "header" : false
+    } ],
+    "tabPage" : false
+  } ],
+  "inherits" : "mkbase.alleMemoS"
+}

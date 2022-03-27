@@ -1,0 +1,144 @@
+{
+  "class" : "mkbase.leverancier",
+  "type" : "BASIC",
+  "valueTypes" : [ ],
+  "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "Leverancier"
+  } ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.regioSite"
+    }, {
+      "type" : "FIELD",
+      "name" : "summary",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "BedrijfsNaam",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractvorm",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "land",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "website",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "profielnummer",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "sector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "ingevoerdDoor",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "eersteContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "followUp",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "transeoMarketplace",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractsdatum",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "naceCode",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.regioSite"
+    }, {
+      "type" : "FIELD",
+      "name" : "BedrijfsNaam",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractvorm",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "land",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "website",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "profielnummer",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "sector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "ingevoerdDoor",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "eersteContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "followUp",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "transeoMarketplace",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractsdatum",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "naceCode",
+      "header" : false
+    } ],
+    "tabPage" : false
+  } ],
+  "inherits" : "mkbase.entiteit"
+}

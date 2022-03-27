@@ -1,0 +1,165 @@
+{
+  "class" : "mkbase.match",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "memoDossier",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "faseVanContact",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : true,
+    "list" : "mkbase.faseVanContact"
+  }, {
+    "name" : "sector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.sector"
+  }, {
+    "name" : "overnamesomRange",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.rangeOvernamesom"
+  }, {
+    "name" : "dealInformatie",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "subsector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.subsector"
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.koper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.verkoper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "match"
+  }, {
+    "valueType" : "name",
+    "formula" : "{{faseVanContact}}"
+  } ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.koper"
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.verkoper"
+    }, {
+      "type" : "FIELD",
+      "name" : "summary",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "start",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "gesloten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "faseVanContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "memoDossier",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "sector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "subsector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "overnamesomRange",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "dealInformatie",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.koper"
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.verkoper"
+    }, {
+      "type" : "FIELD",
+      "name" : "start",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "gesloten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "faseVanContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "memoDossier",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "sector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "subsector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "overnamesomRange",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "dealInformatie",
+      "header" : false
+    } ],
+    "tabPage" : false
+  } ],
+  "inherits" : "mkbase.mappensysteem"
+}

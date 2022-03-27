@@ -1,0 +1,260 @@
+{
+  "class" : "mkbase.verkoper",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ {
+    "name" : "vvo",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "profielnummer",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true
+  }, {
+    "name" : "tweedeBranche",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.branche"
+  }, {
+    "name" : "uitgebreideProfielInformatieFrans",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "interesseFrans",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "interesse",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "regioExtraInformatie",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.regio"
+  }, {
+    "name" : "branche",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.branche"
+  }, {
+    "name" : "onroerendGoed",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.jaNee"
+  }, {
+    "name" : "sector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.sector"
+  }, {
+    "name" : "subsector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.subsector"
+  }, {
+    "name" : "sector2",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.sector"
+  }, {
+    "name" : "subsector2",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.subsector"
+  }, {
+    "name" : "omschrijvingMail",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "omschrijvingMailFrans",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "profielstatus",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.profielstatus"
+  }, {
+    "name" : "uitgebreideProfielinformatie",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "huurprijs",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "redenVanVerkoop",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "jaaromzet",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "omzetVoorgaandeJaren",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "resultaat",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "resultaatVoorgaandeJaren",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "overnamerichtprijs",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "goodwill",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "waardeOnroerendGoed",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "looptijdHuurcontract",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "inventaris",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "voorraad",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "staatVanMachinepark",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "personeelFte",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "ligging",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "geschiedenis",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "typeOverdracht",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.typeOverdracht"
+  }, {
+    "name" : "afzetmarkt",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "klantenbestand",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "bereidheidTotInwerken",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.jaNee"
+  }, {
+    "name" : "eventueleEisenAanKandidaatKoper",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "interesseitaliaans126",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false
+  } ],
+  "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "profielnummer",
+    "formula" : "S{{identifier \"VerkoperReeks\"}}"
+  }, {
+    "valueType" : "name",
+    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
+  }, {
+    "valueType" : "summary",
+    "formula" : "{{interesse}}"
+  } ],
+  "layouts" : [ {
+    "labelKey" : {
+      "type" : "DATA_CLASS_PLURAL",
+      "name" : "mkbase.match"
+    },
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATED_VIEW",
+      "relatedClass" : "mkbase.match",
+      "showTitle" : false
+    } ],
+    "tabPage" : true
+  }, {
+    "labelKey" : {
+      "type" : "DATA_CLASS_PLURAL",
+      "name" : "mkbase.mogelijkeMatch"
+    },
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATED_VIEW",
+      "relatedClass" : "mkbase.mogelijkeMatch",
+      "showTitle" : false
+    } ],
+    "tabPage" : true
+  }, {
+    "labelKey" : {
+      "type" : "DATA_CLASS_PLURAL",
+      "name" : "mkbase.teOnderzoekenMatch"
+    },
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATED_VIEW",
+      "relatedClass" : "mkbase.teOnderzoekenMatch",
+      "showTitle" : false
+    } ],
+    "tabPage" : true
+  } ],
+  "inherits" : "mkbase.entiteit"
+}

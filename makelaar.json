@@ -1,0 +1,285 @@
+{
+  "class" : "mkbase.makelaar",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "specialisatie105",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.specialisatieMakelaar"
+  }, {
+    "name" : "huurOfKoop",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.huurKoopOg"
+  } ],
+  "relations" : [ ],
+  "formulas" : [ ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.regioSite"
+    }, {
+      "type" : "FIELD",
+      "name" : "summary",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "BedrijfsNaam",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractvorm",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "land",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "website",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "postadres",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "huisnummer",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "postcode",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "plaats",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "betaald",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "sector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "ingevoerdDoor",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "eersteContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "followUp",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "transeoMarketplace",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractsdatum",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "regioExtraInformatie",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "naceCode",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "overnameMail",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "overnamekrant",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "automatischeVerlengingContract",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "specialisatie",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "aantalKranten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "aantalContracten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "stilProfielAbonnement",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "geassocieerdLid",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "staffelAfwijkendeAfspraken",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "specialisatie105",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "huurOfKoop",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.regioSite"
+    }, {
+      "type" : "FIELD",
+      "name" : "BedrijfsNaam",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractvorm",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "land",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "website",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "postadres",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "huisnummer",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "postcode",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "plaats",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "betaald",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "profielnummer",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "sector",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "ingevoerdDoor",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "eersteContact",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "followUp",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "transeoMarketplace",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "contractsdatum",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "regioExtraInformatie",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "naceCode",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "overnameMail",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "overnamekrant",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "automatischeVerlengingContract",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "specialisatie",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "aantalKranten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "aantalContracten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "stilProfielAbonnement",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "geassocieerdLid",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "staffelAfwijkendeAfspraken",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "specialisatie105",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "huurOfKoop",
+      "header" : false
+    } ],
+    "tabPage" : false
+  } ],
+  "inherits" : "mkbase.intermediair"
+}

@@ -1,0 +1,11 @@
+{
+  "class" : "mkbase.sector",
+  "type" : "BASIC",
+  "inherits" : "commons.item",
+  "valueTypes" : [ {
+    "name" : "sectorFr",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true
+  } ]
+}

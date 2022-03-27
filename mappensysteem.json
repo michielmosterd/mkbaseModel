@@ -1,0 +1,8 @@
+{
+  "class" : "mkbase.mappensysteem",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ ],
+  "relations" : [ ],
+  "formulas" : [ ],
+  "inherits" : "mkbase.baseDossier"
+}

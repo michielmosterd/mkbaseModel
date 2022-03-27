@@ -1,0 +1,92 @@
+{
+  "class" : "mkbase.document",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "titel",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true
+  }, {
+    "name" : "datum1",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false
+  }, {
+    "name" : "bestand",
+    "dataType" : "FILE",
+    "enabled" : true,
+    "required" : false
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.entiteit",
+    "required" : false,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{{titel}}"
+  } ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.entiteit"
+    }, {
+      "type" : "FIELD",
+      "name" : "summary",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "titel",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "datum1",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "bestand",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.entiteit"
+    }, {
+      "type" : "FIELD",
+      "name" : "titel",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "datum1",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "bestand",
+      "header" : false
+    } ],
+    "tabPage" : false
+  } ],
+  "inherits" : "commons.item"
+}

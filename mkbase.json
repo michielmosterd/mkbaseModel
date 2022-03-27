@@ -1,0 +1,9 @@
+{
+    "class" : "mkbase.mkbase",
+    "type" : "NONE",
+    "imports": [
+        "mkbase.item",
+        "mkbase.sector",
+        "mkbase.migrationBase"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+  "class": "mkbase.migrationBase",
+  "type": "NONE",
+  "relations": [],
+  "migration": {
+    "migrationType": "com/mosterd/migration/effacts",
+    "parameters": [
+      {
+        "name": "url",
+        "dataType": "HYPERLINK",
+        "enabled": true,
+        "required": true
+      },
+      {
+        "name": "context",
+        "dataType": "INTEGER",
+        "enabled": true,
+        "required": true
+      },
+      {
+        "name": "username",
+        "dataType": "TEXT",
+        "enabled": true,
+        "required": true
+      },
+      {
+        "name": "password",
+        "dataType": "TEXT",
+        "enabled": true,
+        "required": true
+      }
+    ],
+    "steps": [
+      {
+        "source": "list:25",
+        "target": "mkbase.sector",
+        "fields": [
+          {
+            "source": "nl",
+            "target": "name",
+            "type": "TEXT"
+          }, 
+          {
+            "source": "fr",
+            "target": "sectorFr",
+            "type": "TEXT"
+          }
+        ],
+        "relations" : [
+        ]
+      }, {
+        "source" : "27",
+        "target" : "mkbase.regioSite",
+        "fields" : [ {
+          "source" : "regioCode",
+          "target" : "code",
+          "type" : "TEXT"
+        }, {
+          "source" : "regioNaamNL",
+          "target" : "regioNl",
+          "type" : "TEXT"
+        }, {
+          "source" : "regionNaamFR",
+          "target" : "naamFr",
+          "type" : "TEXT"
+        } ],
+        "relations" : [ ]
+      }
+    ],
+    "valueMap" : {
+    }
+  }
+}

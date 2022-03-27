@@ -1,0 +1,106 @@
+{
+  "class" : "mkbase.teOnderzoekenMatch",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "teOnderzoekenMatch",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : true,
+    "list" : "mkbase.teOnderzoekenMatch"
+  }, {
+    "name" : "memoDossier",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.koper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.verkoper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{{teOnderzoekenMatch}}"
+  }, {
+    "valueType" : "summary",
+    "formula" : "Te onderzoeken match"
+  } ],
+  "views" : [ {
+    "defaultView" : true,
+    "relationView" : true,
+    "defaultSort" : "name",
+    "values" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : false
+    } ]
+  } ],
+  "layouts" : [ {
+    "type" : "OBJECT_FORM_DASHBOARD",
+    "items" : [ {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.koper"
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.verkoper"
+    }, {
+      "type" : "FIELD",
+      "name" : "start",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "gesloten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "teOnderzoekenMatch",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "memoDossier",
+      "header" : false
+    } ],
+    "tabPage" : false
+  }, {
+    "type" : "OBJECT_DASHBOARD",
+    "items" : [ {
+      "type" : "FIELD",
+      "name" : "name",
+      "header" : true
+    }, {
+      "type" : "FIELD",
+      "name" : "objectLabel",
+      "header" : false
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.koper"
+    }, {
+      "type" : "RELATION",
+      "relatedClass" : "mkbase.verkoper"
+    }, {
+      "type" : "FIELD",
+      "name" : "start",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "gesloten",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "teOnderzoekenMatch",
+      "header" : false
+    }, {
+      "type" : "FIELD",
+      "name" : "memoDossier",
+      "header" : false
+    } ],
+    "tabPage" : false
+  } ],
+  "inherits" : "mkbase.mappensysteem"
+}
