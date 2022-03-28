@@ -1,17 +1,48 @@
 {
-  "class" : "mkbase.sector",
-  "type" : "BASIC",
-  "inherits" : "commons.item",
-  "valueTypes" : [ {
-    "name" : "sectorFr",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : true
-  } ],
+  "class": "mkbase.sector",
+  "type": "BASIC",
+  "inherits": "commons.item",
+  "valueTypes": [
+    {
+      "name": "sectorFr",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": true
+    }
+  ],
   "formulas": [
-      {
-          "valueType": "objectLabel",
-          "formula": "sector"
-      }
+    {
+      "valueType": "objectLabel",
+      "formula": "sector"
+    }
+  ],
+  "layouts": [
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": true
+        },
+        {
+          "type": "FIELD",
+          "name": "objectLabel",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    }
   ]
 }

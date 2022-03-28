@@ -4,7 +4,7 @@
     "imports": [
         "mkbase.company",
         "mkbase.item",
-        "mkbase.sector",
+        "mkbase.superSector",
         "mkbase.superRegio",
         "mkbase.migrationBase"
     ]
