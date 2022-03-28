@@ -68,6 +68,7 @@
   } ],
   "relations" : [ {
     "type" : "mkbase.regioSite",
+    "inherit" : "mkbase.superRegio",
     "required" : true,
     "multiple" : false,
     "cascadeDelete" : false

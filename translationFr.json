@@ -328,7 +328,7 @@
   }, {
     "language" : "fr",
     "singular" : "Acquereur",
-    "plural" : "Acquereur",
+    "plural" : "Acquereurs",
     "valueTypeLabels" : {
       "eigenMiddelen" : "Fonds propres",
       "ervaring" : "Expérience",
@@ -386,7 +386,7 @@
   }, {
     "language" : "fr",
     "singular" : "Vendeur",
-    "plural" : "Vendeur",
+    "plural" : "Vendeurs",
     "valueTypeLabels" : {
       "goodwill" : "Goodwill",
       "omzetVoorgaandeJaren" : "Chiffre d’affaires des années précédentes",
@@ -457,7 +457,7 @@
   }, {
     "language" : "fr",
     "singular" : "Intermediair",
-    "plural" : "Intermediair",
+    "plural" : "Intermediairs",
     "valueTypeLabels" : {
       "overnameMail" : "Mail de reprise",
       "betaald" : "Payé",

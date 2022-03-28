@@ -332,7 +332,7 @@
     {
       "language": "nl",
       "singular": "Koper",
-      "plural": "Koper",
+      "plural": "Kopers",
       "valueTypeLabels": {
         "eigenMiddelen": "Eigen middelen",
         "ervaring": "Ervaring",
@@ -393,7 +393,7 @@
     {
       "language": "nl",
       "singular": "Verkoper",
-      "plural": "Verkoper",
+      "plural": "Verkopers",
       "valueTypeLabels": {
         "goodwill": "Goodwill",
         "omzetVoorgaandeJaren": "Omzet voorgaande jaren",
@@ -467,7 +467,7 @@
     {
       "language": "nl",
       "singular": "Intermediair",
-      "plural": "Intermediair",
+      "plural": "Intermediairs",
       "valueTypeLabels": {
         "overnameMail": "Overname mail",
         "betaald": "Betaald",

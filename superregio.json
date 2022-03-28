@@ -23,6 +23,57 @@
         }
       ],
       "tabPage": true
+    },
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.koper"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "fromClass": "mkbase.superRegio",
+          "relatedClass": "mkbase.entiteit",
+          "filterClass": "mkbase.koper",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    },
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.verkoper"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "fromClass": "mkbase.superRegio",
+          "relatedClass": "mkbase.entiteit",
+          "filterClass": "mkbase.verkoper",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    },
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.intermediair"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "fromClass": "mkbase.superRegio",
+          "relatedClass": "mkbase.entiteit",
+          "filterClass": "mkbase.intermediair",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
     }
   ]
 }

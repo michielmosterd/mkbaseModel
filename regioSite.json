@@ -63,18 +63,6 @@
       "header" : false
     } ],
     "tabPage" : false
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.entiteit"
-    },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.entiteit",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  } ],
+  }],
   "inherits" : "commons.item"
 }
