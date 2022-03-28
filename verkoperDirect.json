@@ -121,22 +121,6 @@
       "header" : false
     }, {
       "type" : "FIELD",
-      "name" : "sector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "branche",
       "header" : false
     }, {
@@ -365,22 +349,6 @@
     }, {
       "type" : "FIELD",
       "name" : "interesseitaliaans126",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector2",
       "header" : false
     }, {
       "type" : "FIELD",

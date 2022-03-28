@@ -1,125 +1,167 @@
 {
-  "class" : "mkbase.intermediair",
-  "type" : "ABSTRACT",
-  "valueTypes" : [ {
-    "name" : "specialisatie",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "regioExtraInformatie",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.regio"
-  }, {
-    "name" : "aantalKranten",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "aantalContracten",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "stilProfielAbonnement",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "geassocieerdLid",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "staffelAfwijkendeAfspraken",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "profielnummer",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "betaald",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "overnamekrant",
-    "dataType" : "BOOLEAN",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "automatischeVerlengingContract",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "overnameMail",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "postadres",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "huisnummer",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "postcode",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "plaats",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  } ],
-  "relations" : [ ],
-  "formulas" : [ {
-    "valueType" : "profielnummer",
-    "formula" : "I{{identifier \"IntermediairReeks\"}}"
-  }, {
-    "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
-  } ],
-  "layouts" : [ {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.koperIndirect"
+  "class": "mkbase.intermediair",
+  "type": "ABSTRACT",
+  "valueTypes": [
+    {
+      "name": "specialisatie",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.koperIndirect",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.verkoperIndirect"
+    {
+      "name": "regioExtraInformatie",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.regio"
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.verkoperIndirect",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  } ],
-  "inherits" : "mkbase.entiteit"
+    {
+      "name": "aantalKranten",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "aantalContracten",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "stilProfielAbonnement",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.jaNee"
+    },
+    {
+      "name": "geassocieerdLid",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.jaNee"
+    },
+    {
+      "name": "staffelAfwijkendeAfspraken",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "profielnummer",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "betaald",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.jaNee"
+    },
+    {
+      "name": "overnamekrant",
+      "dataType": "BOOLEAN",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "automatischeVerlengingContract",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.jaNee"
+    },
+    {
+      "name": "overnameMail",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.jaNee"
+    },
+    {
+      "name": "sector",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.sector"
+    },
+    {
+      "name": "postadres",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "huisnummer",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "postcode",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "plaats",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "relations": [
+    {
+      "type": "mkbase.regioSite",
+      "inherit": "mkbase.subRegio",
+      "required": true,
+      "multiple": false,
+      "cascadeDelete": false
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "profielnummer",
+      "formula": "I{{identifier \"IntermediairReeks\"}}"
+    },
+    {
+      "valueType": "name",
+      "formula": "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
+    }
+  ],
+  "layouts": [
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.koperIndirect"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.koperIndirect",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    },
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.verkoperIndirect"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.verkoperIndirect",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    }
+  ],
+  "inherits": "mkbase.entiteit"
 }

@@ -45,30 +45,6 @@
     "required" : false,
     "list" : "mkbase.branche"
   }, {
-    "name" : "sector",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.sector"
-  }, {
-    "name" : "subsector",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.subsector"
-  }, {
-    "name" : "sector2",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.sector"
-  }, {
-    "name" : "subsector2",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.subsector"
-  }, {
     "name" : "omschrijvingMail",
     "dataType" : "TEXT",
     "enabled" : true,
@@ -142,7 +118,18 @@
     "enabled" : true,
     "required" : false
   } ],
-  "relations" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.regioSite",
+    "inherit" : "mkbase.subRegio",
+    "required" : true,
+    "multiple" : false
+  },
+  {
+    "type" : "mkbase.sector",
+    "inherit" : "mkbase.subSector",
+    "required" : true,
+    "multiple" : true
+  } ],
   "formulas" : [ {
     "valueType" : "profielnummer",
     "formula" : "B{{identifier \"KoperReeks\"}}"
