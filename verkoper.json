@@ -252,7 +252,7 @@
     {
       "defaultView": true,
       "relationView" : true,
-      "defaultSort": "name",
+      "defaultSort": "profielnummer,desc",
       "values": [
         { "name": "profielnummer" },
         { "name": "BedrijfsNaam" },

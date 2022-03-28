@@ -89,7 +89,7 @@
     {
       "defaultView": true,
       "relationView" : true,
-      "defaultSort": "name",
+      "defaultSort": "profielnummer,desc",
       "values": [
         { "name": "profielnummer" },
         { "name": "BedrijfsNaam" },
@@ -99,21 +99,6 @@
     }
   ],
   "layouts": [
-    {
-      "labelKey": {
-        "type": "DATA_CLASS_PLURAL",
-        "name": "mkbase.contactpersoon"
-      },
-      "type": "OBJECT_DASHBOARD",
-      "items": [
-        {
-          "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.contactpersoon",
-          "showTitle": false
-        }
-      ],
-      "tabPage": true
-    },
     {
       "labelKey": {
         "type": "DATA_CLASS_PLURAL",

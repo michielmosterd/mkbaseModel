@@ -49,7 +49,7 @@
     "required" : false
   } ],
   "relations" : [ {
-    "type" : "mkbase.entiteit",
+    "type" : "commons.company",
     "required" : false,
     "multiple" : false,
     "cascadeDelete" : false
@@ -78,7 +78,7 @@
     "type" : "OBJECT_FORM_DASHBOARD",
     "items" : [ {
       "type" : "RELATION",
-      "relatedClass" : "mkbase.entiteit"
+      "relatedClass" : "commons.company"
     }, {
       "type" : "FIELD",
       "name" : "geslacht",
@@ -129,7 +129,7 @@
       "header" : false
     }, {
       "type" : "RELATION",
-      "relatedClass" : "mkbase.entiteit"
+      "relatedClass" : "commons.company"
     }, {
       "type" : "FIELD",
       "name" : "geslacht",

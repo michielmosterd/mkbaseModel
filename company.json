@@ -15,5 +15,31 @@
             "valueType": "objectLabel",
             "formula": "company"
         }
+    ],
+    "layouts": [
+        {
+            "type": "OBJECT_DASHBOARD",
+            "items": [
+                {
+                    "name": "name",
+                    "header": true
+                }
+            ]
+        },
+        {
+            "labelKey": {
+                "type": "DATA_CLASS_PLURAL",
+                "name": "mkbase.contactpersoon"
+            },
+            "type": "OBJECT_DASHBOARD",
+            "items": [
+                {
+                    "type": "RELATED_VIEW",
+                    "relatedClass": "mkbase.contactpersoon",
+                    "showTitle": false
+                }
+            ],
+            "tabPage": true
+        }
     ]
 }

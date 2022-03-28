@@ -2161,6 +2161,65 @@
             "multiple": false
           }
         ]
+      },
+      {
+        "source": "18",
+        "target": "mkbase.contactpersoon",
+        "fields": [
+          {
+            "source": "GSM",
+            "target": "mobieleTelefoon",
+            "type": "TEXT"
+          },
+          {
+            "source": "Fax",
+            "target": "faxNummer",
+            "type": "TEXT"
+          },
+          {
+            "source": "Email",
+            "target": "eMailAdres",
+            "type": "EMAIL"
+          },
+          {
+            "source": "Opmerking",
+            "target": "opmerking",
+            "type": "TEXTBLOCK"
+          },
+          {
+            "source": "Geslacht",
+            "target": "geslacht",
+            "type": "LIST"
+          },
+          {
+            "source": "Voorletters",
+            "target": "voorletters",
+            "type": "TEXT"
+          },
+          {
+            "source": "Achternaam",
+            "target": "achternaam",
+            "type": "TEXT"
+          },
+          {
+            "source": "Voornaam",
+            "target": "voornaam",
+            "type": "TEXT"
+          },
+          {
+            "source": "Telefoon",
+            "target": "telefoonnummer",
+            "type": "TEXT"
+          }
+        ],
+        "relations": [
+          {
+            "source": "Entiteit",
+            "prefix": "company",
+            "target": "commons.company",
+            "multiple": false
+          }
+        ]
       }
     ],
     "valueMap": {
