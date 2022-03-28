@@ -13,17 +13,6 @@
     "enabled" : true,
     "required" : false
   } ],
-  "relations" : [ {
-    "type" : "mkbase.koper",
-    "required" : true,
-    "multiple" : false,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.verkoper",
-    "required" : true,
-    "multiple" : false,
-    "cascadeDelete" : false
-  } ],
   "formulas" : [ {
     "valueType" : "name",
     "formula" : "{{mogelijkeMatch}}"

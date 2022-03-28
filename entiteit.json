@@ -1,117 +1,154 @@
 {
-  "class" : "mkbase.entiteit",
-  "type" : "ABSTRACT",
-  "valueTypes" : [ {
-    "name" : "eersteContact",
-    "dataType" : "DATE",
-    "enabled" : true,
-    "required" : true
-  }, {
-    "name" : "transeoMarketplace",
-    "dataType" : "BOOLEAN",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "ingevoerdDoor",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : true,
-    "list" : "mkbase.ingevoerdDoor"
-  }, {
-    "name" : "BedrijfsNaam",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "contractvorm",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.contract"
-  }, {
-    "name" : "land",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.land"
-  }, {
-    "name" : "website",
-    "dataType" : "HYPERLINK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "profielnummer",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "naceCode",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "followUp",
-    "dataType" : "DATE",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "contractsdatum",
-    "dataType" : "DATE",
-    "enabled" : true,
-    "required" : false
-  } ],
-  "formulas" : [ {
-    "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {!Contract}"
-  } ],
-  "layouts" : [ {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.contactpersoon"
+  "class": "mkbase.entiteit",
+  "type": "ABSTRACT",
+  "valueTypes": [
+    {
+      "name": "eersteContact",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": true
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.contactpersoon",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.memo"
+    {
+      "name": "transeoMarketplace",
+      "dataType": "BOOLEAN",
+      "enabled": true,
+      "required": false
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.memo",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.document"
+    {
+      "name": "ingevoerdDoor",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": true,
+      "list": "mkbase.ingevoerdDoor"
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.document",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.gearchiveerdeMemo"
+    {
+      "name": "BedrijfsNaam",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.gearchiveerdeMemo",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  } ],
-  "inherits" : "commons.item"
+    {
+      "name": "contractvorm",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.contract"
+    },
+    {
+      "name": "land",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.land"
+    },
+    {
+      "name": "website",
+      "dataType": "HYPERLINK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "profielnummer",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "naceCode",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "followUp",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "contractsdatum",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "relations": [
+    {
+      "type": "commons.company",
+      "required": true,
+      "multiple": false
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "name",
+      "formula": "{{profielnummer}} {{BedrijfsNaam}} {!Contract}"
+    }
+  ],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView" : true,
+      "defaultSort": "name",
+      "values": [
+        { "name": "profielnummer" },
+        { "name": "BedrijfsNaam" },
+        { "name": "contractvorm" },
+        { "name": "objectLabel" }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.contactpersoon"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.contactpersoon",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    },
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.memo"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.memo",
+          "showTitle": false
+        },
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.gearchiveerdeMemo",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    },
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.document"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.document",
+          "showTitle": false
+        }
+      ],
+      "tabPage": true
+    }
+  ],
+  "inherits": "commons.item"
 }

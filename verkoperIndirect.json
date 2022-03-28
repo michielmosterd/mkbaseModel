@@ -1,411 +1,527 @@
 {
-  "class" : "mkbase.verkoperIndirect",
-  "type" : "BASIC",
-  "valueTypes" : [ ],
-  "relations" : [ {
-    "type" : "mkbase.intermediair",
-    "required" : false,
-    "multiple" : false,
-    "cascadeDelete" : false
-  } ],
-  "formulas" : [ {
-    "valueType" : "objectLabel",
-    "formula" : "verkoperIndirect"
-  } ],
-  "views" : [ {
-    "defaultView" : true,
-    "relationView" : true,
-    "defaultSort" : "name",
-    "values" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : false
-    } ]
-  } ],
-  "layouts" : [ {
-    "type" : "OBJECT_FORM_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.regioSite"
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.intermediair"
-    }, {
-      "type" : "FIELD",
-      "name" : "BedrijfsNaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesse",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseitaliaans126",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "branche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "tweedeBranche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "profielstatus",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielinformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielInformatieFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ingevoerdDoor",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eersteContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "followUp",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "transeoMarketplace",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractsdatum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "regioExtraInformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMail",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMailFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "afzetmarkt",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "onroerendGoed",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "redenVanVerkoop",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omzetVoorgaandeJaren",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaat",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaatVoorgaandeJaren",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "goodwill",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "waardeOnroerendGoed",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "huurprijs",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "looptijdHuurcontract",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "inventaris",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "voorraad",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "staatVanMachinepark",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ligging",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "geschiedenis",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "typeOverdracht",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "klantenbestand",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "bereidheidTotInwerken",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eventueleEisenAanKandidaatKoper",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "vvo",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "jaaromzet",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "overnamerichtprijs",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "personeelFte",
-      "header" : false
-    } ],
-    "tabPage" : false
-  }, {
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : true
-    }, {
-      "type" : "FIELD",
-      "name" : "objectLabel",
-      "header" : false
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.regioSite"
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.intermediair"
-    }, {
-      "type" : "FIELD",
-      "name" : "BedrijfsNaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "profielnummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesse",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseitaliaans126",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "branche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "tweedeBranche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "profielstatus",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielinformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielInformatieFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ingevoerdDoor",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eersteContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "followUp",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "transeoMarketplace",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractsdatum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "regioExtraInformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMail",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMailFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "afzetmarkt",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "onroerendGoed",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "redenVanVerkoop",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omzetVoorgaandeJaren",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaat",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaatVoorgaandeJaren",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "goodwill",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "waardeOnroerendGoed",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "huurprijs",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "looptijdHuurcontract",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "inventaris",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "voorraad",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "staatVanMachinepark",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ligging",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "geschiedenis",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "typeOverdracht",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "klantenbestand",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "bereidheidTotInwerken",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eventueleEisenAanKandidaatKoper",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "vvo",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "jaaromzet",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "overnamerichtprijs",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "personeelFte",
-      "header" : false
-    } ],
-    "tabPage" : false
-  } ],
-  "inherits" : "mkbase.verkoper"
+  "class": "mkbase.verkoperIndirect",
+  "type": "BASIC",
+  "valueTypes": [],
+  "relations": [
+    {
+      "type": "mkbase.intermediair",
+      "required": false,
+      "multiple": false,
+      "cascadeDelete": false
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "objectLabel",
+      "formula": "verkoperIndirect"
+    }
+  ],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "name",
+      "values": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": false
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.regioSite"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "commons.company"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.intermediair"
+        },
+        {
+          "type": "FIELD",
+          "name": "BedrijfsNaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractvorm",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "land",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "website",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesse",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseitaliaans126",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "branche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "tweedeBranche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "profielstatus",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielinformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielInformatieFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ingevoerdDoor",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eersteContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "followUp",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "transeoMarketplace",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractsdatum",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "regioExtraInformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "naceCode",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMail",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMailFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "afzetmarkt",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "onroerendGoed",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "redenVanVerkoop",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omzetVoorgaandeJaren",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaat",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaatVoorgaandeJaren",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "goodwill",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "waardeOnroerendGoed",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "huurprijs",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "looptijdHuurcontract",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "inventaris",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "voorraad",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "staatVanMachinepark",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ligging",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "geschiedenis",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "typeOverdracht",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "klantenbestand",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "bereidheidTotInwerken",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eventueleEisenAanKandidaatKoper",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "vvo",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "jaaromzet",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "overnamerichtprijs",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "personeelFte",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": true
+        },
+        {
+          "type": "FIELD",
+          "name": "objectLabel",
+          "header": false
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.regioSite"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "commons.company"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.intermediair"
+        },
+        {
+          "type": "FIELD",
+          "name": "BedrijfsNaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractvorm",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "land",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "website",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "profielnummer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesse",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseitaliaans126",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "branche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "tweedeBranche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "profielstatus",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielinformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielInformatieFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ingevoerdDoor",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eersteContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "followUp",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "transeoMarketplace",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractsdatum",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "regioExtraInformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "naceCode",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMail",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMailFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "afzetmarkt",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "onroerendGoed",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "redenVanVerkoop",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omzetVoorgaandeJaren",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaat",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaatVoorgaandeJaren",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "goodwill",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "waardeOnroerendGoed",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "huurprijs",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "looptijdHuurcontract",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "inventaris",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "voorraad",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "staatVanMachinepark",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ligging",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "geschiedenis",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "typeOverdracht",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "klantenbestand",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "bereidheidTotInwerken",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eventueleEisenAanKandidaatKoper",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "vvo",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "jaaromzet",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "overnamerichtprijs",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "personeelFte",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    }
+  ],
+  "inherits": "mkbase.verkoper"
 }

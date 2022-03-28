@@ -7,5 +7,94 @@
         "mkbase.superSector",
         "mkbase.superRegio",
         "mkbase.migrationBase"
-    ]
-}
+    ],
+    "layouts": [
+        {
+          "type": "GENERAL_DASHBOARD",
+          "items": [
+            {
+              "type": "HEADER",
+              "label": "<i style=\"color: darkblue\">Matching Manager</i>"
+            },
+            {
+              "type": "TEXT",
+              "label": "LABEL:welcomeText"
+            }
+          ]
+        },
+        {
+          "type": "GENERAL_DASHBOARD",
+          "labelKey": "DATA_CLASS_PLURAL:mkbase.koper",
+          "tabPage": true,
+          "items": [
+            {
+              "type": "VIEW",
+              "class": "mkbase.koper"
+            }
+          ]
+        },
+        {
+          "type": "GENERAL_DASHBOARD",
+          "labelKey": "DATA_CLASS_PLURAL:mkbase.verkoper",
+          "tabPage": true,
+          "items": [
+            {
+              "type": "VIEW",
+              "class": "mkbase.verkoper"
+            }
+          ]
+        },
+        {
+          "type": "GENERAL_DASHBOARD",
+          "labelKey": "DATA_CLASS_PLURAL:mkbase.intermediair",
+          "tabPage": true,
+          "items": [
+            {
+              "type": "VIEW",
+              "class": "mkbase.intermediair"
+            }
+          ]
+        },
+        {
+          "type": "GENERAL_DASHBOARD",
+          "labelKey": "LABEL:search",
+          "tabPage": true,
+          "items": [
+            {
+              "type": "SEARCH",
+              "class": "commons.entiteit",
+              "showTitle": false
+            }
+          ]
+        },
+        {
+          "type": "NAVIGATION_PANE",
+          "items": [
+            {
+              "type": "NAVIGATE",
+              "class": "commons.company",
+              "icon": "commons#icon-office"
+            },
+            {
+              "type": "NAVIGATE",
+              "class": "mkbase.contactpersoon",
+              "icon": "commons#icon-users"
+            },
+            {
+              "type": "NAVIGATE",
+              "class": "mkbase.regioSite",
+              "icon": "commons#icon-earth"
+            }
+          ]
+        }
+      ],
+      "translations": [
+        {
+          "language": "nl",
+          "generalLabels": {
+            "search": "Zoek profielen",
+            "welcomeText": "Welkom, dit is de Matching Manager ...."
+          }
+        }
+      ]
+    }

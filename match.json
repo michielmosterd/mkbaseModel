@@ -36,17 +36,6 @@
     "required" : false,
     "list" : "mkbase.subsector"
   } ],
-  "relations" : [ {
-    "type" : "mkbase.koper",
-    "required" : true,
-    "multiple" : false,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.verkoper",
-    "required" : true,
-    "multiple" : false,
-    "cascadeDelete" : false
-  } ],
   "formulas" : [ {
     "valueType" : "objectLabel",
     "formula" : "match"

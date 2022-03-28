@@ -1,331 +1,427 @@
 {
-  "class" : "mkbase.koperIndirect",
-  "type" : "BASIC",
-  "valueTypes" : [ ],
-  "relations" : [ {
-    "type" : "mkbase.intermediair",
-    "required" : false,
-    "multiple" : false,
-    "cascadeDelete" : false
-  } ],
-  "formulas" : [ {
-    "valueType" : "objectLabel",
-    "formula" : "koperIndirect"
-  } ],
-  "views" : [ {
-    "defaultView" : true,
-    "relationView" : true,
-    "defaultSort" : "name",
-    "values" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : false
-    } ]
-  } ],
-  "layouts" : [ {
-    "type" : "OBJECT_FORM_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.regioSite"
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.intermediair"
-    }, {
-      "type" : "FIELD",
-      "name" : "BedrijfsNaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesse",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseitaliaans126",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "branche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "tweedeBranche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "profielstatus",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielinformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielInformatieFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielInformatieItaliaans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "gewensteOmzet",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ingevoerdDoor",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eersteContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "followUp",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "transeoMarketplace",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractsdatum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "regioExtraInformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMail",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMailFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "afzetmarkt",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "franchisewijzer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ervaring",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eigenMiddelen",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "geenInteresse",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "typeOvername",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "meerderheidNoodzakelijk",
-      "header" : false
-    } ],
-    "tabPage" : false
-  }, {
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : true
-    }, {
-      "type" : "FIELD",
-      "name" : "objectLabel",
-      "header" : false
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.regioSite"
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.intermediair"
-    }, {
-      "type" : "FIELD",
-      "name" : "BedrijfsNaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "profielnummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesse",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "interesseitaliaans126",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector2",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "branche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "tweedeBranche",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "profielstatus",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielinformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielInformatieFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "uitgebreideProfielInformatieItaliaans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "gewensteOmzet",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ingevoerdDoor",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eersteContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "followUp",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "transeoMarketplace",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "contractsdatum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "regioExtraInformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMail",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "omschrijvingMailFrans",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "afzetmarkt",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "franchisewijzer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "ervaring",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eigenMiddelen",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "geenInteresse",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "typeOvername",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "meerderheidNoodzakelijk",
-      "header" : false
-    } ],
-    "tabPage" : false
-  } ],
-  "inherits" : "mkbase.koper"
+  "class": "mkbase.koperIndirect",
+  "type": "BASIC",
+  "valueTypes": [],
+  "relations": [
+    {
+      "type": "mkbase.intermediair",
+      "required": false,
+      "multiple": false,
+      "cascadeDelete": false
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "objectLabel",
+      "formula": "koperIndirect"
+    }
+  ],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "name",
+      "values": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": false
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.regioSite"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "commons.company"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.intermediair"
+        },
+        {
+          "type": "FIELD",
+          "name": "BedrijfsNaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractvorm",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "land",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "website",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesse",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseitaliaans126",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "sector",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "subsector",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "sector2",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "subsector2",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "branche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "tweedeBranche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "profielstatus",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielinformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielInformatieFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielInformatieItaliaans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "gewensteOmzet",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ingevoerdDoor",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eersteContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "followUp",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "transeoMarketplace",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractsdatum",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "regioExtraInformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "naceCode",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMail",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMailFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "afzetmarkt",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "franchisewijzer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ervaring",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eigenMiddelen",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "geenInteresse",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "typeOvername",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "meerderheidNoodzakelijk",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": true
+        },
+        {
+          "type": "FIELD",
+          "name": "objectLabel",
+          "header": false
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.regioSite"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "commons.company"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.intermediair"
+        },
+        {
+          "type": "FIELD",
+          "name": "BedrijfsNaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractvorm",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "land",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "website",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "profielnummer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesse",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "interesseitaliaans126",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "sector",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "subsector",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "sector2",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "subsector2",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "branche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "tweedeBranche",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "profielstatus",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielinformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielInformatieFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "uitgebreideProfielInformatieItaliaans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "gewensteOmzet",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ingevoerdDoor",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eersteContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "followUp",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "transeoMarketplace",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "contractsdatum",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "regioExtraInformatie",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "naceCode",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMail",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "omschrijvingMailFrans",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "afzetmarkt",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "franchisewijzer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "ervaring",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eigenMiddelen",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "geenInteresse",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "typeOvername",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "meerderheidNoodzakelijk",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    }
+  ],
+  "inherits": "mkbase.koper"
 }

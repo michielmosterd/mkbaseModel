@@ -1,8 +1,31 @@
 {
-  "class" : "mkbase.mappensysteem",
-  "type" : "ABSTRACT",
-  "valueTypes" : [ ],
-  "relations" : [ ],
-  "formulas" : [ ],
-  "inherits" : "mkbase.baseDossier"
+  "class": "mkbase.mappensysteem",
+  "type": "ABSTRACT",
+  "valueTypes": [
+    {
+      "name": "start",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": true
+    },
+    {
+      "name": "gesloten",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "relations" : [ {
+    "type" : "mkbase.koper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.verkoper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "formulas": [],
+  "inherits": "commons.item"
 }

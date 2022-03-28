@@ -1,181 +1,214 @@
 {
-  "class" : "mkbase.koper",
-  "type" : "ABSTRACT",
-  "valueTypes" : [ {
-    "name" : "profielnummer",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "franchisewijzer",
-    "dataType" : "BOOLEAN",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "tweedeBranche",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.branche"
-  }, {
-    "name" : "uitgebreideProfielInformatieFrans",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "interesseFrans",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "regioExtraInformatie",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.regio"
-  }, {
-    "name" : "interesse",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "branche",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.branche"
-  }, {
-    "name" : "omschrijvingMail",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "omschrijvingMailFrans",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "geenInteresse",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "profielstatus",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.profielstatus"
-  }, {
-    "name" : "uitgebreideProfielinformatie",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "gewensteOmzet",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "ervaring",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "eigenMiddelen",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "typeOvername",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.typeOvername"
-  }, {
-    "name" : "meerderheidNoodzakelijk",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "afzetmarkt",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "interesseitaliaans126",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "uitgebreideProfielInformatieItaliaans",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "uitgebreideProfielInformatieItaliaans",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  } ],
-  "relations" : [ {
-    "type" : "mkbase.regioSite",
-    "inherit" : "mkbase.subRegio",
-    "required" : true,
-    "multiple" : false
-  },
-  {
-    "type" : "mkbase.sector",
-    "inherit" : "mkbase.subSector",
-    "required" : true,
-    "multiple" : true
-  } ],
-  "formulas" : [ {
-    "valueType" : "profielnummer",
-    "formula" : "B{{identifier \"KoperReeks\"}}"
-  }, {
-    "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
-  }, {
-    "valueType" : "summary",
-    "formula" : "{{interesse}}"
-  } ],
-  "layouts" : [ {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.match"
+  "class": "mkbase.koper",
+  "type": "ABSTRACT",
+  "valueTypes": [
+    {
+      "name": "profielnummer",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.match",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.mogelijkeMatch"
+    {
+      "name": "franchisewijzer",
+      "dataType": "BOOLEAN",
+      "enabled": true,
+      "required": false
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.mogelijkeMatch",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.teOnderzoekenMatch"
+    {
+      "name": "tweedeBranche",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.branche"
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.teOnderzoekenMatch",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  } ],
-  "inherits" : "mkbase.entiteit"
+    {
+      "name": "uitgebreideProfielInformatieFrans",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "interesseFrans",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "regioExtraInformatie",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.regio"
+    },
+    {
+      "name": "interesse",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "branche",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.branche"
+    },
+    {
+      "name": "omschrijvingMail",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "omschrijvingMailFrans",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "geenInteresse",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "profielstatus",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.profielstatus"
+    },
+    {
+      "name": "uitgebreideProfielinformatie",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "gewensteOmzet",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "ervaring",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "eigenMiddelen",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "typeOvername",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.typeOvername"
+    },
+    {
+      "name": "meerderheidNoodzakelijk",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.jaNee"
+    },
+    {
+      "name": "afzetmarkt",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "interesseitaliaans126",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "uitgebreideProfielInformatieItaliaans",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "uitgebreideProfielInformatieItaliaans",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "relations": [
+    {
+      "type": "mkbase.regioSite",
+      "inherit": "mkbase.subRegio",
+      "required": true,
+      "multiple": false
+    },
+    {
+      "type": "mkbase.sector",
+      "inherit": "mkbase.subSector",
+      "required": true,
+      "multiple": true
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "profielnummer",
+      "formula": "B{{identifier \"KoperReeks\"}}"
+    },
+    {
+      "valueType": "name",
+      "formula": "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
+    },
+    {
+      "valueType": "summary",
+      "formula": "{{interesse}}"
+    }
+  ],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView" : true,
+      "defaultSort": "name",
+      "values": [
+        { "name": "profielnummer" },
+        { "name": "BedrijfsNaam" },
+        { "name": "contractvorm" },
+        { "type": "RELATION", "relatedClass": "mkbase.regioSite" },
+        { "name": "objectLabel" }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "labelKey": {
+        "type": "DATA_CLASS_PLURAL",
+        "name": "mkbase.mappensysteem"
+      },
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.match",
+          "showTitle": true
+        },
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.mogelijkeMatch",
+          "showTitle": true
+        },
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.teOnderzoekenMatch",
+          "showTitle": true
+        }
+      ],
+      "tabPage": true
+    }
+  ],
+  "inherits": "mkbase.entiteit"
 }

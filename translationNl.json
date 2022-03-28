@@ -8,6 +8,7 @@
       "singular": "Base subject",
       "plural": "Base subject",
       "valueTypeLabels": {
+        "objectLabel": "Label",
         "mkbase.soortAdviseur:ACC": "Accountant",
         "mkbase.resultaatContact:I": "I verstuurd + informatie intern",
         "mkbase.resultaatContact:F": "F verstuurd + informatie intern",
@@ -310,8 +311,8 @@
     },
     {
       "language": "nl",
-      "singular": "Entiteit",
-      "plural": "Entiteit",
+      "singular": "Profiel",
+      "plural": "Profielen",
       "valueTypeLabels": {
         "followUp": "Follow-up",
         "website": "Website",
@@ -641,8 +642,8 @@
     },
     {
       "language": "nl",
-      "singular": "Mappensysteem",
-      "plural": "Mappensysteem",
+      "singular": "Match",
+      "plural": "Matches",
       "valueTypeLabels": {},
       "generalLabels": {},
       "class": "mkbase.mappensysteem"
