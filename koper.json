@@ -193,22 +193,43 @@
       "items": [
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.match",
+          "relatedClass": "mkbase.mappensysteem",
+          "filterClass": "mkbase.match",
           "showTitle": true
         },
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.mogelijkeMatch",
+          "relatedClass": "mkbase.mappensysteem",
+          "filterClass": "mkbase.mogelijkeMatch",
           "showTitle": true
         },
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.teOnderzoekenMatch",
+          "relatedClass": "mkbase.mappensysteem",
+          "filterClass": "mkbase.teOnderzoekenMatch",
+          "showTitle": true
+        }
+      ],
+      "tabPage": true
+    },
+    {
+      "labelKey": "LABEL:siteInfo",
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.sector",
+          "showTitle": true
+        },
+        {
+          "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.subRegio",
           "showTitle": true
         }
       ],
       "tabPage": true
     }
+
   ],
   "inherits": "mkbase.entiteit"
 }

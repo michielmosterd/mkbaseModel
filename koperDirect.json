@@ -326,6 +326,7 @@
     },
     {
       "type": "OBJECT_DASHBOARD",
+      "tabPage": false,
       "items": [
         {
           "type": "FIELD",
@@ -344,7 +345,17 @@
         {
           "type": "RELATION",
           "relatedClass": "commons.company"
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "contact"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "BedrijfsNaam",
@@ -389,7 +400,17 @@
           "type": "FIELD",
           "name": "betaald",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "gegevensSite"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "profielnummer",
@@ -464,7 +485,17 @@
           "type": "FIELD",
           "name": "gewensteOmzet",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "extraProfielinformatie"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "ingevoerdDoor",
@@ -570,8 +601,7 @@
           "name": "mbiContractWeek",
           "header": false
         }
-      ],
-      "tabPage": false
+      ]
     }
   ],
   "inherits": "mkbase.koper"

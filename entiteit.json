@@ -133,6 +133,22 @@
         }
       ],
       "tabPage": true
+    },
+    {
+        "labelKey": {
+            "type": "DATA_CLASS_PLURAL",
+            "name": "mkbase.contactpersoon"
+        },
+        "type": "OBJECT_DASHBOARD",
+        "name": "disabled",
+        "items": [
+            {
+                "type": "RELATED_VIEW",
+                "relatedClass": "mkbase.contactpersoon",
+                "showTitle": false
+            }
+        ],
+        "tabPage": true
     }
   ],
   "inherits": "commons.item"

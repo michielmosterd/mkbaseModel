@@ -1,173 +1,231 @@
 {
-  "class" : "mkbase.contactpersoon",
-  "type" : "BASIC",
-  "valueTypes" : [ {
-    "name" : "mobieleTelefoon",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "faxNummer",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "eMailAdres",
-    "dataType" : "EMAIL",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "opmerking",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "geslacht",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.geslacht"
-  }, {
-    "name" : "voorletters",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "achternaam",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "voornaam",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  }, {
-    "name" : "telefoonnummer",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false
-  } ],
-  "relations" : [ {
-    "type" : "commons.company",
-    "required" : false,
-    "multiple" : false,
-    "cascadeDelete" : false
-  } ],
-  "formulas" : [ {
-    "valueType" : "objectLabel",
-    "formula" : "contactpersoon"
-  }, {
-    "valueType" : "name",
-    "formula" : "{{geslacht}} {{voorletters}} {{achternaam}}"
-  }, {
-    "valueType" : "summary",
-    "formula" : "{{eMailAdres}} {{telefoonnummer}} {{mobieleTelefoon}}"
-  } ],
-  "views" : [ {
-    "defaultView" : true,
-    "relationView" : true,
-    "defaultSort" : "name",
-    "values" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : false
-    } ]
-  } ],
-  "layouts" : [ {
-    "type" : "OBJECT_FORM_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATION",
-      "relatedClass" : "commons.company"
-    }, {
-      "type" : "FIELD",
-      "name" : "geslacht",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "voorletters",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "achternaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "voornaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "telefoonnummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "mobieleTelefoon",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "faxNummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eMailAdres",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "opmerking",
-      "header" : false
-    } ],
-    "tabPage" : false
-  }, {
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : true
-    }, {
-      "type" : "FIELD",
-      "name" : "objectLabel",
-      "header" : false
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "commons.company"
-    }, {
-      "type" : "FIELD",
-      "name" : "geslacht",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "voorletters",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "achternaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "voornaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "telefoonnummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "mobieleTelefoon",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "faxNummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "eMailAdres",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "opmerking",
-      "header" : false
-    } ],
-    "tabPage" : false
-  } ],
-  "inherits" : "commons.item"
+  "class": "mkbase.contactpersoon",
+  "type": "BASIC",
+  "valueTypes": [
+    {
+      "name": "mobieleTelefoon",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "faxNummer",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "eMailAdres",
+      "dataType": "EMAIL",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "opmerking",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "geslacht",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.geslacht"
+    },
+    {
+      "name": "voorletters",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "achternaam",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "voornaam",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "telefoonnummer",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "relations": [
+    {
+      "type": "mkbase.entiteit",
+      "required": false,
+      "multiple": false,
+      "cascadeDelete": false
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "objectLabel",
+      "formula": "contactpersoon"
+    },
+    {
+      "valueType": "name",
+      "formula": "{{geslacht}} {{voorletters}} {{achternaam}}"
+    },
+    {
+      "valueType": "summary",
+      "formula": "{{eMailAdres}} {{telefoonnummer}} {{mobieleTelefoon}}"
+    }
+  ],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "name",
+      "values": [
+        {
+          "name": "achternaam"
+        },
+        {
+          "name": "voornaam"
+        },
+        {
+          "name": "eMailAdres"
+        },
+        {
+          "name": "telefoonnummer"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entiteit"
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entiteit"
+        },
+        {
+          "type": "FIELD",
+          "name": "geslacht",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "voorletters",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "achternaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "voornaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "telefoonnummer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "mobieleTelefoon",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "faxNummer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eMailAdres",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "opmerking",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": true
+        },
+        {
+          "type": "FIELD",
+          "name": "objectLabel",
+          "header": false
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entiteit"
+        },
+        {
+          "type": "FIELD",
+          "name": "geslacht",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "voorletters",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "achternaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "voornaam",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "telefoonnummer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "mobieleTelefoon",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "faxNummer",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "eMailAdres",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "opmerking",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    }
+  ],
+  "inherits": "commons.item"
 }

@@ -243,7 +243,17 @@
         {
           "type": "RELATION",
           "relatedClass": "mkbase.intermediair"
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "contact"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "BedrijfsNaam",
@@ -263,7 +273,17 @@
           "type": "FIELD",
           "name": "website",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "gegevensSite"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "profielnummer",
@@ -338,7 +358,17 @@
           "type": "FIELD",
           "name": "gewensteOmzet",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "extraProfielinformatie"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "ingevoerdDoor",
@@ -419,8 +449,7 @@
           "name": "meerderheidNoodzakelijk",
           "header": false
         }
-      ],
-      "tabPage": false
+      ]
     }
   ],
   "inherits": "mkbase.koper"

@@ -2215,8 +2215,7 @@
         "relations": [
           {
             "source": "Entiteit",
-            "prefix": "company",
-            "target": "commons.company",
+            "target": "mkbase.entiteit",
             "multiple": false
           }
         ]
