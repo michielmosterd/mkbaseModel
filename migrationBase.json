@@ -32,45 +32,6 @@
     ],
     "steps": [
       {
-        "source": "list:25",
-        "target": "mkbase.sector",
-        "fields": [
-          {
-            "source": "nl",
-            "target": "name",
-            "type": "TEXT"
-          },
-          {
-            "source": "fr",
-            "target": "sectorFr",
-            "type": "TEXT"
-          }
-        ],
-        "relations": []
-      },
-      {
-        "source": "27",
-        "target": "mkbase.regioSite",
-        "fields": [
-          {
-            "source": "regioCode",
-            "target": "code",
-            "type": "TEXT"
-          },
-          {
-            "source": "regioNaamNL",
-            "target": "name",
-            "type": "TEXT"
-          },
-          {
-            "source": "regionNaamFR",
-            "target": "naamFr",
-            "type": "TEXT"
-          }
-        ],
-        "relations": []
-      },
-      {
         "source": "2",
         "target": "commons.company",
         "prefix": "COMPANY",

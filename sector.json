@@ -4,7 +4,7 @@
   "inherits": "commons.item",
   "valueTypes": [
     {
-      "name": "sectorFr",
+      "name": "code",
       "dataType": "TEXT",
       "enabled": true,
       "required": true
@@ -43,6 +43,446 @@
         }
       ],
       "tabPage": false
+    }
+  ],
+  "data": [
+    {
+      "class": "mkbase.sector",
+      "key": "importId",
+      "objects": [
+        {
+          "importId": "LISTVALUE222",
+          "name": "ICT",
+          "code": "8-f"
+        },
+        {
+          "importId": "LISTVALUE274",
+          "name": "Horeca",
+          "code": "9-e"
+        },
+        {
+          "importId": "LISTVALUE218",
+          "name": "Industrie",
+          "code": "3-i"
+        },
+        {
+          "importId": "LISTVALUE271",
+          "name": "Automotive",
+          "code": "11-c"
+        },
+        {
+          "importId": "LISTVALUE275",
+          "name": "Detailhandel",
+          "code": "12-g"
+        },
+        {
+          "importId": "LISTVALUE276",
+          "name": "Groothandel ",
+          "code": "6-e"
+        },
+        {
+          "importId": "LISTVALUE272",
+          "name": "Bouwnijverheid",
+          "code": "4-g"
+        },
+        {
+          "importId": "LISTVALUE266",
+          "name": "Onroerend goed",
+          "code": "10-c"
+        },
+        {
+          "importId": "LISTVALUE268",
+          "name": "Papier Grafisch",
+          "code": "5-c"
+        },
+        {
+          "importId": "LISTVALUE221",
+          "name": "Dienstverlening",
+          "code": "7-i"
+        }
+      ]
+    },
+    {
+      "class": "mkbase.subSector",
+      "key": "importId",
+      "objects": [
+        {
+          "importId": "LISTVALUE211",
+          "name": "Onroerend goed / algemeen",
+          "code": "10a",
+          "superSectors": [
+            "LISTVALUE266"
+          ]
+        },
+        {
+          "importId": "LISTVALUE265",
+          "name": "Onroerend goed / Te ontwikkelen",
+          "code": "10b",
+          "superSectors": [
+            "LISTVALUE266"
+          ]
+        },
+        {
+          "importId": "LISTVALUE269",
+          "name": "Automotive / handel, onderhoud en reparatie",
+          "code": "11-a",
+          "superSectors": [
+            "LISTVALUE271"
+          ]
+        },
+        {
+          "importId": "LISTVALUE270",
+          "name": "Automotive / handel auto-onderdelen",
+          "code": "11-b",
+          "superSectors": [
+            "LISTVALUE271"
+          ]
+        },
+        {
+          "importId": "LISTVALUE69",
+          "name": "Detailhandel / food",
+          "code": "12-a",
+          "superSectors": [
+            "LISTVALUE275"
+          ]
+        },
+        {
+          "importId": "LISTVALUE70",
+          "name": "Detailhandel / doe het zelf",
+          "code": "12-b",
+          "superSectors": [
+            "LISTVALUE275"
+          ]
+        },
+        {
+          "importId": "LISTVALUE71",
+          "name": "Detailhandel / groen- en tuincentra",
+          "code": "12-c",
+          "superSectors": [
+            "LISTVALUE275"
+          ]
+        },
+        {
+          "importId": "LISTVALUE72",
+          "name": "Detailhandel / wonen",
+          "code": "12-d",
+          "superSectors": [
+            "LISTVALUE275"
+          ]
+        },
+        {
+          "importId": "LISTVALUE73",
+          "name": "Detailhandel / mode",
+          "code": "12-e",
+          "superSectors": [
+            "LISTVALUE275"
+          ]
+        },
+        {
+          "importId": "LISTVALUE74",
+          "name": "Detailhandel / overig",
+          "code": "12-f",
+          "superSectors": [
+            "LISTVALUE275"
+          ]
+        },
+        {
+          "importId": "LISTVALUE35",
+          "name": "Industrie / voedingsindustrie",
+          "code": "3-a",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE36",
+          "name": "Industrie / textiel",
+          "code": "3-b",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE37",
+          "name": "Industrie / chemisch, kunststof, plastic",
+          "code": "3-c",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE38",
+          "name": "Industrie / metaal",
+          "code": "3-d",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE39",
+          "name": "Industrie / machinebouw",
+          "code": "3-e",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE40",
+          "name": "Industrie / meubelindustrie",
+          "code": "3-f",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE41",
+          "name": "Industrie / papier, karton en verpakkingen",
+          "code": "3-g",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE42",
+          "name": "Industrie / overig",
+          "code": "3-h",
+          "superSectors": [
+            "LISTVALUE218"
+          ]
+        },
+        {
+          "importId": "LISTVALUE43",
+          "name": "Bouwnijverheid / algemeen bouwen, aannemers",
+          "code": "4-a",
+          "superSectors": [
+            "LISTVALUE272"
+          ]
+        },
+        {
+          "importId": "LISTVALUE45",
+          "name": "Bouwnijverheid / installatiebranche, dakbedekking",
+          "code": "4-b",
+          "superSectors": [
+            "LISTVALUE272"
+          ]
+        },
+        {
+          "importId": "LISTVALUE46",
+          "name": "Bouwnijverheid / grond-, weg-, en waterbouw",
+          "code": "4-c",
+          "superSectors": [
+            "LISTVALUE272"
+          ]
+        },
+        {
+          "importId": "LISTVALUE223",
+          "name": "Bouwnijverheid / afwerking",
+          "code": "4-e",
+          "superSectors": [
+            "LISTVALUE272"
+          ]
+        },
+        {
+          "importId": "LISTVALUE47",
+          "name": "Bouwnijverheid / divers, overig",
+          "code": "4-f",
+          "superSectors": [
+            "LISTVALUE272"
+          ]
+        },
+        {
+          "importId": "LISTVALUE216",
+          "name": "Papier Grafisch / Uitgeverij",
+          "code": "5-a",
+          "superSectors": [
+            "LISTVALUE268"
+          ]
+        },
+        {
+          "importId": "LISTVALUE199",
+          "name": "Papier Grafisch / Drukkerij",
+          "code": "5-b",
+          "superSectors": [
+            "LISTVALUE268"
+          ]
+        },
+        {
+          "importId": "LISTVALUE48",
+          "name": "Groothandel / food",
+          "code": "6-a",
+          "superSectors": [
+            "LISTVALUE268"
+          ]
+        },
+        {
+          "importId": "LISTVALUE51",
+          "name": "Groothandel / consumentengoederen non food",
+          "code": "6-b",
+          "superSectors": [
+            "LISTVALUE268"
+          ]
+        },
+        {
+          "importId": "LISTVALUE50",
+          "name": "Groothandel / technisch",
+          "code": "6-c",
+          "superSectors": [
+            "LISTVALUE268"
+          ]
+        },
+        {
+          "importId": "LISTVALUE49",
+          "name": "Groothandel /overig",
+          "code": "6-d",
+          "superSectors": [
+            "LISTVALUE268"
+          ]
+        },
+        {
+          "importId": "LISTVALUE52",
+          "name": "Dienstverlening / transport en logistiek",
+          "code": "7-a",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE53",
+          "name": "Dienstverlening / financieel, OG en verzekeringen",
+          "code": "7-b",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE54",
+          "name": "Dienstverlening / verhuur roerende zaken",
+          "code": "7-c",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE56",
+          "name": "Dienstverlening / gezondheidszorg",
+          "code": "7-d",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE57",
+          "name": "Dienstverlening / advisering",
+          "code": "7-e",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE58",
+          "name": "Dienstverlening / facilitaire dienstverlening",
+          "code": "7-f",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE205",
+          "name": "Dienstverlening / uitzend en detachering",
+          "code": "7-g",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE59",
+          "name": "Dienstverlening / overig",
+          "code": "7-h",
+          "superSectors": [
+            "LISTVALUE221"
+          ]
+        },
+        {
+          "importId": "LISTVALUE60",
+          "name": "ICT / software",
+          "code": "8-a",
+          "superSectors": [
+            "LISTVALUE222"
+          ]
+        },
+        {
+          "importId": "LISTVALUE61",
+          "name": "ICT / internet en hosting",
+          "code": "8-b",
+          "superSectors": [
+            "LISTVALUE222"
+          ]
+        },
+        {
+          "importId": "LISTVALUE62",
+          "name": "ICT / netwerkbeheer",
+          "code": "8-c",
+          "superSectors": [
+            "LISTVALUE222"
+          ]
+        },
+        {
+          "importId": "LISTVALUE206",
+          "name": "ICT / advies",
+          "code": "8-d",
+          "superSectors": [
+            "LISTVALUE222"
+          ]
+        },
+        {
+          "importId": "LISTVALUE63",
+          "name": "ICT / overig",
+          "code": "8-e",
+          "superSectors": [
+            "LISTVALUE222"
+          ]
+        },
+        {
+          "importId": "LISTVALUE264",
+          "name": "ICT / E commerce",
+          "code": "8-g",
+          "superSectors": [
+            "LISTVALUE222"
+          ]
+        },
+        {
+          "importId": "LISTVALUE64",
+          "name": "Horeca / recreatie, camping",
+          "code": "9-a",
+          "superSectors": [
+            "LISTVALUE274"
+          ]
+        },
+        {
+          "importId": "LISTVALUE65",
+          "name": "Horeca / hotels",
+          "code": "9-b",
+          "superSectors": [
+            "LISTVALUE274"
+          ]
+        },
+        {
+          "importId": "LISTVALUE67",
+          "name": "Horeca / restaurants",
+          "code": "9-c",
+          "superSectors": [
+            "LISTVALUE274"
+          ]
+        },
+        {
+          "importId": "LISTVALUE68",
+          "name": "Horeca / café, snackbar",
+          "code": "9-d",
+          "superSectors": [
+            "LISTVALUE274"
+          ]
+        }
+      ]
     }
   ]
 }

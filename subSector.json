@@ -4,20 +4,13 @@
   "inherits" : "mkbase.sector",  
   "layouts": [
     {
-      "labelKey": {
-        "type": "DATA_CLASS_PLURAL",
-        "name": "mkbase.superSector"
-      },
       "type": "OBJECT_DASHBOARD",
       "items": [
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.superSector",
-          "showTitle": false
+          "relatedClass": "mkbase.superSector"
         }
-      ],
-      "tabPage": true
+      ]
     }
   ]
-
 }

@@ -10,10 +10,6 @@
   "inherits": "mkbase.sector",
   "layouts": [
     {
-      "labelKey": {
-        "type": "DATA_CLASS_PLURAL",
-        "name": "mkbase.subSector"
-      },
       "type": "OBJECT_DASHBOARD",
       "items": [
         {
@@ -21,8 +17,7 @@
           "relatedClass": "mkbase.subSector",
           "showTitle": false
         }
-      ],
-      "tabPage": true
+      ]
     },
     {
       "labelKey": {
