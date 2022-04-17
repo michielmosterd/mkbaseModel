@@ -311,7 +311,7 @@
           "name": "Groothandel / food",
           "code": "6-a",
           "superSectors": [
-            "LISTVALUE268"
+            "LISTVALUE276"
           ]
         },
         {
@@ -319,7 +319,7 @@
           "name": "Groothandel / consumentengoederen non food",
           "code": "6-b",
           "superSectors": [
-            "LISTVALUE268"
+            "LISTVALUE276"
           ]
         },
         {
@@ -327,15 +327,15 @@
           "name": "Groothandel / technisch",
           "code": "6-c",
           "superSectors": [
-            "LISTVALUE268"
+            "LISTVALUE276"
           ]
         },
         {
           "importId": "LISTVALUE49",
-          "name": "Groothandel /overig",
+          "name": "Groothandel / overig",
           "code": "6-d",
           "superSectors": [
-            "LISTVALUE268"
+            "LISTVALUE276"
           ]
         },
         {
