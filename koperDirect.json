@@ -102,9 +102,8 @@
           "relatedClass": "commons.company"
         },
         {
-          "type": "FIELD",
-          "name": "BedrijfsNaam",
-          "header": false
+          "type": "RELATION",
+          "relatedClass": "mkbase.sector"
         },
         {
           "type": "FIELD",

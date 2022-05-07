@@ -302,6 +302,11 @@
         },
         {
           "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.superSector",
+          "showTitle": true
+        },
+        {
+          "type": "RELATED_VIEW",
           "relatedClass": "mkbase.superRegio",
           "showTitle": true
         }

@@ -223,6 +223,11 @@
         },
         {
           "type": "RELATED_VIEW",
+          "relatedClass": "mkbase.subSector",
+          "showTitle": true
+        },
+        {
+          "type": "RELATED_VIEW",
           "relatedClass": "mkbase.subRegio",
           "showTitle": true
         }
