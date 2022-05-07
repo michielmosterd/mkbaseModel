@@ -95,6 +95,11 @@
           "relatedClass": "commons.company"
         },
         {
+          "type": "RELATION",
+          "relatedClass": "mkbase.sector",
+          "editBehavior": "CHECKBOX"
+        },
+        {
           "type": "FIELD",
           "name": "BedrijfsNaam",
           "header": false

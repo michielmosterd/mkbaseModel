@@ -44,6 +44,11 @@
         },
         {
           "type": "RELATION",
+          "relatedClass": "mkbase.sector",
+          "editBehavior": "CHECKBOX"
+        },
+        {
+          "type": "RELATION",
           "relatedClass": "mkbase.intermediair"
         },
         {
