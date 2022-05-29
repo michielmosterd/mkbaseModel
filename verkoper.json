@@ -258,6 +258,7 @@
         { "name": "BedrijfsNaam" },
         { "name": "contractvorm" },
         { "type": "RELATION", "relatedClass": "mkbase.regioSite" },
+        { "type": "RELATION", "relatedClass": "mkbase.sector" },
         { "name": "objectLabel" }
       ]
     }
