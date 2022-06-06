@@ -1,22 +1,19 @@
 {
   "class" : "mkbase.memo",
   "type" : "BASIC",
-  "valueTypes" : [ {
-    "name" : "followUp",
-    "dataType" : "DATE",
-    "enabled" : true,
-    "required" : false
-  } ],
+  "valueTypes" : [ ],
   "relations" : [ {
     "type" : "mkbase.entiteit",
     "required" : false,
     "multiple" : false,
     "cascadeDelete" : false
-  } ],
-  "formulas" : [ {
-    "valueType" : "name",
-    "formula" : "{<4.2><129>}"
-  } ],
+  },
+  {
+    "type": "commons.person",
+    "required": true,
+    "defaultValue": "own"
+  }
+ ],
   "views" : [ {
     "defaultView" : true,
     "relationView" : true,
@@ -33,9 +30,8 @@
       "type" : "RELATION",
       "relatedClass" : "mkbase.entiteit"
     }, {
-      "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
+      "type" : "RELATION",
+      "relatedClass" : "commons.person"
     }, {
       "type" : "FIELD",
       "name" : "datum",

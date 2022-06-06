@@ -1734,7 +1734,7 @@
         "type" : "TEXT"
       }, {
         "source" : "Email",
-        "target" : "eMailAdres",
+        "target" : "emailAddress",
         "type" : "EMAIL"
       }, {
         "source" : "Opmerking",
@@ -1750,11 +1750,11 @@
         "type" : "TEXT"
       }, {
         "source" : "Achternaam",
-        "target" : "achternaam",
+        "target" : "lastName",
         "type" : "TEXT"
       }, {
         "source" : "Voornaam",
-        "target" : "voornaam",
+        "target" : "firstName",
         "type" : "TEXT"
       }, {
         "source" : "Telefoon",
@@ -1768,7 +1768,7 @@
       } ]
     }, {
       "source" : "19",
-      "target" : "mkbase.memo",
+      "target" : "mkbase.gearchiveerdeMemo",
       "fields" : [ {
         "source" : "Followup",
         "target" : "followUp",
@@ -1793,10 +1793,6 @@
         "source" : "Opmerking",
         "target" : "opmerking",
         "type" : "TEXTBLOCK"
-      }, {
-        "source" : "_summary",
-        "target" : "summary",
-        "type" : "TEXT"
       } ],
       "relations" : [ {
         "source" : "Entiteit",
@@ -1979,10 +1975,6 @@
         "source" : "Opmerking",
         "target" : "opmerking",
         "type" : "TEXTBLOCK"
-      }, {
-        "source" : "_summary",
-        "target" : "summary",
-        "type" : "TEXT"
       } ],
       "relations" : [ ]
     } ],

@@ -1,99 +1,81 @@
 {
-  "class" : "mkbase.gearchiveerdeMemo",
-  "type" : "BASIC",
-  "valueTypes" : [ ],
-  "relations" : [ {
-    "type" : "mkbase.entiteit",
-    "required" : true,
-    "multiple" : true,
-    "cascadeDelete" : false
-  } ],
-  "formulas" : [ ],
-  "views" : [ {
-    "defaultView" : true,
-    "relationView" : true,
-    "defaultSort" : "name",
-    "values" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : false
-    } ]
-  } ],
-  "layouts" : [ {
-    "type" : "OBJECT_FORM_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.entiteit"
-    }, {
-      "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "datum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "kernwoord",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaatContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "opmerking",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "schrijverMemo",
-      "header" : false
-    } ],
-    "tabPage" : false
-  }, {
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : true
-    }, {
-      "type" : "FIELD",
-      "name" : "objectLabel",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "datum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "kernwoord",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaatContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "opmerking",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "schrijverMemo",
-      "header" : false
-    } ],
-    "tabPage" : false
-  }, {
-    "labelKey" : {
-      "type" : "DATA_CLASS_PLURAL",
-      "name" : "mkbase.entiteit"
+  "class": "mkbase.gearchiveerdeMemo",
+  "type": "BASIC",
+  "valueTypes": [
+    {
+      "name": "schrijverMemo",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
     },
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATED_VIEW",
-      "relatedClass" : "mkbase.entiteit",
-      "showTitle" : false
-    } ],
-    "tabPage" : true
-  } ],
-  "inherits" : "mkbase.alleMemoS"
+    {
+      "name": "kernwoord",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "formulas": [],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "name",
+      "values": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": false
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entity"
+        },
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": true
+        },
+        {
+          "type": "FIELD",
+          "name": "objectLabel",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "datum",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "kernwoord",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaatContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "opmerking",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "schrijverMemo",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    }
+  ],
+  "inherits": "mkbase.alleMemoS"
 }

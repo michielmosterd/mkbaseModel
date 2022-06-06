@@ -6,7 +6,8 @@
         "mkbase.item",
         "mkbase.superSector",
         "mkbase.superRegio",
-        "mkbase.migrationBase"
+        "mkbase.migrationBase",
+        "mkbase.memo"
     ],
     "layouts": [
         {

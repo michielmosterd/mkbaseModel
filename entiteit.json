@@ -108,12 +108,14 @@
       "items": [
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.memo",
+          "relatedClass": "mkbase.alleMemoS",
+          "filterClass": "mkbase.memo",
           "showTitle": false
         },
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.gearchiveerdeMemo",
+          "relatedClass": "mkbase.alleMemoS",
+          "filterClass": "mkbase.gearchiveerdeMemo",
           "showTitle": false
         }
       ],
