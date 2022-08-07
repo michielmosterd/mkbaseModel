@@ -16,36 +16,44 @@
       "formula": "koperIndirect"
     }
   ],
-  "views": [
-    {
-      "defaultView": true,
-      "relationView": true,
-      "defaultSort": "name",
-      "values": [
-        {
-          "type": "FIELD",
-          "name": "name",
-          "header": false
-        }
-      ]
-    }
-  ],
   "layouts": [
     {
       "type": "OBJECT_FORM_DASHBOARD",
       "items": [
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.regioSite"
-        },
-        {
-          "type": "RELATION",
           "relatedClass": "commons.company"
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.intermediair"
+          "relatedClass": "mkbase.regioSite"
         },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.intermediair"
+        }
+      ]
+    },
+    {
+      "labelKey": "LABEL:siteInfo",
+      "tabPage": true,
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.sector",
+          "editBehavior": "CHECKBOX"
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "contact"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "BedrijfsNaam",
@@ -65,7 +73,17 @@
           "type": "FIELD",
           "name": "website",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "gegevensSite"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "interesse",
@@ -115,7 +133,17 @@
           "type": "FIELD",
           "name": "gewensteOmzet",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "extraProfielinformatie"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "ingevoerdDoor",
@@ -196,8 +224,7 @@
           "name": "meerderheidNoodzakelijk",
           "header": false
         }
-      ],
-      "tabPage": false
+      ]
     },
     {
       "type": "OBJECT_DASHBOARD",

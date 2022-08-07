@@ -176,7 +176,7 @@
       "defaultSort": "profielnummer,desc",
       "values": [
         { "name": "profielnummer" },
-        { "name": "BedrijfsNaam" },
+        { "type": "RELATION", "relatedClass": "commons.company" },
         { "name": "contractvorm" },
         { "type": "RELATION", "relatedClass": "mkbase.regioSite" },
         { "type": "RELATION", "relatedClass": "mkbase.sector" },

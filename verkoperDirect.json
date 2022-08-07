@@ -61,25 +61,10 @@
       "list": "mkbase.prijsVanContract"
     }
   ],
-  "relations": [],
   "formulas": [
     {
       "valueType": "objectLabel",
       "formula": "verkoperDirect"
-    }
-  ],
-  "views": [
-    {
-      "defaultView": true,
-      "relationView": true,
-      "defaultSort": "name",
-      "values": [
-        {
-          "type": "FIELD",
-          "name": "name",
-          "header": false
-        }
-      ]
     }
   ],
   "layouts": [
@@ -88,17 +73,35 @@
       "items": [
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.regioSite"
-        },
-        {
-          "type": "RELATION",
           "relatedClass": "commons.company"
         },
         {
           "type": "RELATION",
+          "relatedClass": "mkbase.regioSite"
+        }
+      ],
+      "tabPage": false
+    },
+    {
+      "labelKey": "LABEL:siteInfo",
+      "tabPage": true,
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
           "relatedClass": "mkbase.sector",
           "editBehavior": "CHECKBOX"
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "contact"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "BedrijfsNaam",
@@ -143,7 +146,17 @@
           "type": "FIELD",
           "name": "betaald",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "gegevensSite"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "interesse",
@@ -183,7 +196,17 @@
           "type": "FIELD",
           "name": "uitgebreideProfielInformatieFrans",
           "header": false
-        },
+        }
+      ]
+    },
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "extraProfielinformatie"
+      },
+      "items": [
         {
           "type": "FIELD",
           "name": "ingevoerdDoor",
@@ -364,9 +387,9 @@
           "name": "personeelFte",
           "header": false
         }
-      ],
-      "tabPage": false
+      ]
     },
+
     {
       "type": "OBJECT_DASHBOARD",
       "items": [
