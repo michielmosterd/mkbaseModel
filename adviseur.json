@@ -22,9 +22,6 @@
   "formulas" : [ {
     "valueType" : "objectLabel",
     "formula" : "adviseur"
-  }, {
-    "valueType" : "summary",
-    "formula" : "Adviseur {{contractvorm}}"
   } ],
   "views" : [ {
     "defaultView" : true,

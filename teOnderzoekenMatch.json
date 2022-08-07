@@ -16,9 +16,6 @@
   "formulas" : [ {
     "valueType" : "name",
     "formula" : "{{teOnderzoekenMatch}}"
-  }, {
-    "valueType" : "summary",
-    "formula" : "Te onderzoeken match"
   } ],
   "views" : [ {
     "defaultView" : true,

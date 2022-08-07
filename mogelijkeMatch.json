@@ -16,9 +16,6 @@
   "formulas" : [ {
     "valueType" : "name",
     "formula" : "{{mogelijkeMatch}}"
-  }, {
-    "valueType" : "summary",
-    "formula" : "{{mogelijkeMatch}}"
   } ],
   "views" : [ {
     "defaultView" : true,

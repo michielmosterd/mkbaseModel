@@ -44,10 +44,6 @@
       "relatedClass" : "mkbase.entiteit"
     }, {
       "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "titel",
       "header" : false
     }, {

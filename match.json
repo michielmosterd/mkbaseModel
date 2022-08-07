@@ -63,10 +63,6 @@
       "relatedClass" : "mkbase.verkoper"
     }, {
       "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "start",
       "header" : false
     }, {

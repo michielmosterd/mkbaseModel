@@ -193,11 +193,6 @@
             "source": "Contractsdatum",
             "target": "contractsdatum",
             "type": "DATE"
-          },
-          {
-            "source": "_summary",
-            "target": "summary",
-            "type": "TEXT"
           }
         ],
         "relations": [
@@ -407,11 +402,6 @@
             "source": "Contractsdatum",
             "target": "contractsdatum",
             "type": "DATE"
-          },
-          {
-            "source": "_summary",
-            "target": "summary",
-            "type": "TEXT"
           }
         ],
         "relations": [
@@ -765,11 +755,6 @@
             "source": "Contractsdatum",
             "target": "contractsdatum",
             "type": "DATE"
-          },
-          {
-            "source": "_summary",
-            "target": "summary",
-            "type": "TEXT"
           }
         ],
         "relations": [
@@ -934,11 +919,6 @@
             "source": "Contractsdatum",
             "target": "contractsdatum",
             "type": "DATE"
-          },
-          {
-            "source": "_summary",
-            "target": "summary",
-            "type": "TEXT"
           }
         ],
         "relations": [
@@ -1113,11 +1093,6 @@
             "source": "Contractsdatum",
             "target": "contractsdatum",
             "type": "DATE"
-          },
-          {
-            "source": "_summary",
-            "target": "summary",
-            "type": "TEXT"
           }
         ],
         "relations": [

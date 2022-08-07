@@ -163,10 +163,6 @@
     {
       "valueType": "name",
       "formula": "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
-    },
-    {
-      "valueType": "summary",
-      "formula": "{{interesse}}"
     }
   ],
   "views": [

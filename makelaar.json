@@ -33,10 +33,6 @@
       "relatedClass" : "mkbase.regioSite"
     }, {
       "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "BedrijfsNaam",
       "header" : false
     }, {

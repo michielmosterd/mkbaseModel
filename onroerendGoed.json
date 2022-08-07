@@ -30,10 +30,6 @@
     "type" : "OBJECT_FORM_DASHBOARD",
     "items" : [ {
       "type" : "FIELD",
-      "name" : "summary",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "huurOfKoop",
       "header" : false
     } ],
