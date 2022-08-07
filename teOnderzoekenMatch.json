@@ -21,11 +21,14 @@
     "defaultView" : true,
     "relationView" : true,
     "defaultSort" : "name",
-    "values" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : false
-    } ]
+    "values" : [ 
+      { "type" : "RELATION", "relatedClass" : "mkbase.koper" },
+      { "type" : "RELATION", "relatedClass" : "mkbase.verkoper" },
+      { "name" : "teOnderzoekenMatch" },
+      { "name" : "start" },
+      { "name" : "gesloten" },
+      { "name" : "memoDossier" }
+    ]
   } ],
   "layouts" : [ {
     "type" : "OBJECT_FORM_DASHBOARD",

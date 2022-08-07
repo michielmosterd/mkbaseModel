@@ -26,6 +26,5 @@
     "multiple" : false,
     "cascadeDelete" : false
   } ],
-  "formulas": [],
   "inherits": "commons.item"
 }
