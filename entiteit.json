@@ -79,12 +79,6 @@
       "multiple": false
     }
   ],
-  "formulas": [
-    {
-      "valueType": "name",
-      "formula": "{{profielnummer}} {{BedrijfsNaam}} {!Contract}"
-    }
-  ],
   "views": [
     {
       "defaultView": true,
