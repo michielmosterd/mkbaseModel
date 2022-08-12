@@ -7,19 +7,26 @@
             "name": "land",
             "dataType": "LIST",
             "list": "mkbase.land"
-          },
-          { "name": "postadres" },
-          { "name": "huisnummer" },
-          { "name": "postcode" },
-          { "name": "plaats" },
-      
-          {
+        },
+        {
+            "name": "postadres"
+        },
+        {
+            "name": "huisnummer"
+        },
+        {
+            "name": "postcode"
+        },
+        {
+            "name": "plaats"
+        },
+        {
             "name": "website",
             "dataType": "HYPERLINK"
-          },    
-          {
+        },
+        {
             "name": "naceCode"
-          }      
+        }
     ],
     "formulas": [
         {
@@ -53,26 +60,86 @@
                     "name": "name",
                     "header": true
                 },
-                { "name": "land" },
-                { "name": "postadres" },
-                { "name": "huisnummer" },
-                { "name": "postcode" },
-                { "name": "plaats" },
-                { "name": "website" },
-                { "name": "naceCode" }
+                {
+                    "name": "land"
+                },
+                {
+                    "name": "postadres"
+                },
+                {
+                    "name": "huisnummer"
+                },
+                {
+                    "name": "postcode"
+                },
+                {
+                    "name": "plaats"
+                },
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "naceCode"
+                }
+            ]
+        },
+        {
+            "type": "OBJECT_FORM_DASHBOARD",
+            "items": [
+                {
+                    "name": "name",
+                    "header": true
+                },
+                {
+                    "name": "land"
+                },
+                {
+                    "name": "postadres"
+                },
+                {
+                    "name": "huisnummer"
+                },
+                {
+                    "name": "postcode"
+                },
+                {
+                    "name": "plaats"
+                },
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "naceCode"
+                }
             ]
         },
         {
             "type": "RELATED_OBJECT",
             "items": [
-                { "name": "name" },
-                { "name": "land" },
-                { "name": "postadres" },
-                { "name": "huisnummer" },
-                { "name": "postcode" },
-                { "name": "plaats" },
-                { "name": "website" },
-                { "name": "naceCode" }
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "land"
+                },
+                {
+                    "name": "postadres"
+                },
+                {
+                    "name": "huisnummer"
+                },
+                {
+                    "name": "postcode"
+                },
+                {
+                    "name": "plaats"
+                },
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "naceCode"
+                }
             ]
         }
     ]

@@ -71,10 +71,6 @@
       "relatedClass" : "mkbase.regioSite"
     }, {
       "type" : "FIELD",
-      "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "profielnummer",
       "header" : false
     }, {

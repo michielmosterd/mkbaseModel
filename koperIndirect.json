@@ -238,21 +238,6 @@
       "tabPage": true,
       "labelKey": {
         "type": "LABEL",
-        "name": "contact"
-      },
-      "items": [
-        {
-          "type": "FIELD",
-          "name": "contractvorm",
-          "header": false
-        }
-      ]
-    },
-    {
-      "type": "OBJECT_DASHBOARD",
-      "tabPage": true,
-      "labelKey": {
-        "type": "LABEL",
         "name": "gegevensSite"
       },
       "items": [

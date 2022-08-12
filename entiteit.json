@@ -120,6 +120,30 @@
             }
         ],
         "tabPage": true
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
+      "labelKey": {
+        "type": "LABEL",
+        "name": "contact"
+      },
+      "items": [
+        {
+          "type": "RELATED_OBJECT",
+          "relatedClass": "commons.company"
+        },
+        {
+          "type": "FIELD",
+          "name": "contractvorm",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "betaald",
+          "header": false
+        }
+      ]
     }
   ],
   "inherits": "commons.item"
