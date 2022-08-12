@@ -39,7 +39,7 @@
   "formulas": [
     {
       "valueType": "name",
-      "formula": "Memo"
+      "formula": "Memo {{datum}}"
     }
   ],
   "inherits": "commons.item"

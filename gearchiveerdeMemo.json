@@ -15,66 +15,45 @@
       "required": false
     }
   ],
-  "formulas": [],
   "views": [
     {
       "defaultView": true,
       "relationView": true,
-      "defaultSort": "name",
+      "defaultSort": "datum,desc",
       "values": [
-        {
-          "type": "FIELD",
-          "name": "name",
-          "header": false
-        }
+        { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
+        { "name": "datum" },
+        { "name": "resultaatContact" },
+        { "name": "opmerking" },
+        { "name": "schrijverMemo" }
       ]
     }
   ],
+
   "layouts": [
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
+        { "name": "datum" },
+        { "name": "kernwoord" },
+        { "name": "resultaatContact" },
+        { "name": "opmerking" },
+        { "name": "schrijverMemo" }
+      ]
+    },
     {
       "type": "OBJECT_DASHBOARD",
       "items": [
-        {
-          "type": "RELATION",
-          "relatedClass": "mkbase.entity"
-        },
-        {
-          "type": "FIELD",
-          "name": "name",
-          "header": true
-        },
-        {
-          "type": "FIELD",
-          "name": "objectLabel",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "datum",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "kernwoord",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "resultaatContact",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "opmerking",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "schrijverMemo",
-          "header": false
-        }
-      ],
-      "tabPage": false
+        { "name": "name", "header": true },
+        { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
+        { "name": "objectLabel" },
+        { "name": "datum" },
+        { "name": "kernwoord" },
+        { "name": "resultaatContact" },
+        { "name": "opmerking" },
+        { "name": "schrijverMemo" }
+      ]
     }
   ],
   "inherits": "mkbase.alleMemoS"
