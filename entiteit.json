@@ -35,26 +35,7 @@
       "list": "mkbase.contract"
     },
     {
-      "name": "land",
-      "dataType": "LIST",
-      "enabled": true,
-      "required": false,
-      "list": "mkbase.land"
-    },
-    {
-      "name": "website",
-      "dataType": "HYPERLINK",
-      "enabled": true,
-      "required": false
-    },
-    {
       "name": "profielnummer",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "naceCode",
       "dataType": "TEXT",
       "enabled": true,
       "required": false

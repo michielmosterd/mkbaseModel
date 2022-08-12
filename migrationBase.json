@@ -43,8 +43,18 @@
             "defaultValue": "(onbekend)"
           },
           {
+            "source": "Land",
+            "target": "land",
+            "type": "LIST"
+          },
+          {
+            "source": "Nacecode",
+            "target": "naceCode",
+            "type": "TEXT"
+          },
+          {
             "source": "URL",
-            "target": "companyWebsite",
+            "target": "website",
             "type": "HYPERLINK"
           }
         ],
@@ -168,21 +178,6 @@
             "source": "Contract",
             "target": "contractvorm",
             "type": "LIST"
-          },
-          {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
           },
           {
             "source": "Followup",
@@ -379,21 +374,6 @@
             "type": "LIST"
           },
           {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
-          },
-          {
             "source": "Followup",
             "target": "followUp",
             "type": "DATE"
@@ -546,21 +526,6 @@
             "source": "Contract",
             "target": "contractvorm",
             "type": "LIST"
-          },
-          {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
           },
           {
             "source": "Followup",
@@ -732,21 +697,6 @@
             "type": "LIST"
           },
           {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
-          },
-          {
             "source": "Followup",
             "target": "followUp",
             "type": "DATE"
@@ -894,21 +844,6 @@
             "source": "Contract",
             "target": "contractvorm",
             "type": "LIST"
-          },
-          {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
           },
           {
             "source": "Followup",
@@ -1068,21 +1003,6 @@
             "source": "Contract",
             "target": "contractvorm",
             "type": "LIST"
-          },
-          {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
           },
           {
             "source": "Followup",
@@ -1359,21 +1279,6 @@
             "type": "LIST"
           },
           {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
-          },
-          {
             "source": "Followup",
             "target": "followUp",
             "type": "DATE"
@@ -1615,21 +1520,6 @@
             "type": "LIST"
           },
           {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
-          },
-          {
             "source": "Followup",
             "target": "followUp",
             "type": "DATE"
@@ -1856,21 +1746,6 @@
             "type": "LIST"
           },
           {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
-          },
-          {
             "source": "Followup",
             "target": "followUp",
             "type": "DATE"
@@ -2040,21 +1915,6 @@
             "source": "Contract",
             "target": "contractvorm",
             "type": "LIST"
-          },
-          {
-            "source": "Land",
-            "target": "land",
-            "type": "LIST"
-          },
-          {
-            "source": "URL",
-            "target": "website",
-            "type": "HYPERLINK"
-          },
-          {
-            "source": "Nacecode",
-            "target": "naceCode",
-            "type": "TEXT"
           },
           {
             "source": "Followup",

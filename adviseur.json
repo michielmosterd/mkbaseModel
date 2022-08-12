@@ -48,14 +48,6 @@
       "header" : false
     }, {
       "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "postadres",
       "header" : false
     }, {
@@ -101,10 +93,6 @@
     }, {
       "type" : "FIELD",
       "name" : "regioExtraInformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
       "header" : false
     }, {
       "type" : "FIELD",
@@ -179,14 +167,6 @@
       "header" : false
     }, {
       "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "postadres",
       "header" : false
     }, {
@@ -236,10 +216,6 @@
     }, {
       "type" : "FIELD",
       "name" : "regioExtraInformatie",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
       "header" : false
     }, {
       "type" : "FIELD",

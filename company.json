@@ -4,16 +4,47 @@
     "type": "EXTENSION",
     "valueTypes": [
         {
-            "name": "companyWebsite",
+            "name": "land",
+            "dataType": "LIST",
+            "enabled": true,
+            "required": false,
+            "list": "mkbase.land"
+          },
+          {
+            "name": "website",
             "dataType": "HYPERLINK",
             "enabled": true,
             "required": false
-        }
+          },    
+          {
+            "name": "naceCode"
+          }      
     ],
     "formulas": [
         {
             "valueType": "objectLabel",
             "formula": "company"
+        }
+    ],
+    "views": [
+        {
+            "defaultView": true,
+            "relationView": true,
+            "defaultSort": "profielnummer,desc",
+            "values": [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "land"
+                },
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "naceCode"
+                }
+            ]
         }
     ],
     "layouts": [

@@ -63,16 +63,6 @@
           "type": "FIELD",
           "name": "contractvorm",
           "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "land",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "website",
-          "header": false
         }
       ]
     },
@@ -176,11 +166,6 @@
         },
         {
           "type": "FIELD",
-          "name": "naceCode",
-          "header": false
-        },
-        {
-          "type": "FIELD",
           "name": "omschrijvingMail",
           "header": false
         },
@@ -269,16 +254,6 @@
         {
           "type": "FIELD",
           "name": "contractvorm",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "land",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "website",
           "header": false
         }
       ]
@@ -404,11 +379,6 @@
         {
           "type": "FIELD",
           "name": "regioExtraInformatie",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "naceCode",
           "header": false
         },
         {

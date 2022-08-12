@@ -32,14 +32,6 @@
       "header" : false
     }, {
       "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "profielnummer",
       "header" : false
     }, {
@@ -66,11 +58,7 @@
       "type" : "FIELD",
       "name" : "contractsdatum",
       "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
-      "header" : false
-    } ],
+    }],
     "tabPage" : false
   }, {
     "type" : "OBJECT_DASHBOARD",
@@ -95,14 +83,6 @@
       "header" : false
     }, {
       "type" : "FIELD",
-      "name" : "land",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "website",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "profielnummer",
       "header" : false
     }, {
@@ -129,11 +109,7 @@
       "type" : "FIELD",
       "name" : "contractsdatum",
       "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "naceCode",
-      "header" : false
-    } ],
+    }],
     "tabPage" : false
   } ],
   "inherits" : "mkbase.entiteit"
