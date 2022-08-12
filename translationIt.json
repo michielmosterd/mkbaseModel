@@ -296,21 +296,33 @@
     },
     "generalLabels" : { },
     "class" : "commons.item"
-  }, {
+  }, 
+  {
+    "language": "it",
+    "singular": "Bedrijf",
+    "plural": "Bedrijven",
+    "valueTypeLabels": {
+      "name" : "Ragione sociale",
+      "land" : "Paese",
+      "website" : "Sito web",
+      "naceCode" : "Codice Nace",
+      "plaats" : "Comune",
+      "huisnummer" : "N° civico",
+      "postcode" : "CAP",
+      "postadres" : "Indirizzo postale"
+    },
+    "class": "commons.company"
+  },{
     "language" : "it",
     "singular" : "Entita",
     "plural" : "Entita",
     "valueTypeLabels" : {
       "followUp" : "Follow-up",
-      "website" : "Sito web",
       "ingevoerdDoor" : "Inserito da",
       "transeoMarketplace" : "Transeo Marketplace",
-      "BedrijfsNaam" : "Ragione sociale",
       "profielnummer" : "Numero profilo",
-      "land" : "Paese",
       "eersteContact" : "Primo contatto",
       "sector" : "Settore",
-      "naceCode" : "Codice Nace",
       "contractsdatum" : "Data del contratto",
       "contractvorm" : "Tipo di contratto"
     },
@@ -357,10 +369,6 @@
       "overnameMail" : "Mail acquisizione",
       "betaald" : "Pagato",
       "overnamekrant" : "Giornale delle acquiszioni",
-      "plaats" : "Comune",
-      "huisnummer" : "N° civico",
-      "postcode" : "CAP",
-      "postadres" : "Indirizzo postale",
       "automatischeVerlengingContract" : "Rinnovamento automatico del contratto",
       "mbiContractWeek" : "MBI contratto settimanale",
       "prijsVanContract" : "Prezzo del contratto"
@@ -429,10 +437,6 @@
       "overnameMail" : "Mail acquisizione",
       "overnamekrant" : "Giornale delle acquiszioni",
       "betaald" : "Pagato",
-      "plaats" : "Comune",
-      "huisnummer" : "N° civico",
-      "postcode" : "CAP",
-      "postadres" : "Indirizzo postale",
       "automatischeVerlengingContract" : "Rinnovamento automatico del contratto",
       "prijsVanContract" : "Prezzo del contratto"
     },
@@ -452,17 +456,13 @@
     "valueTypeLabels" : {
       "overnameMail" : "Mail acquisizione",
       "betaald" : "Pagato",
-      "plaats" : "Comune",
       "geassocieerdLid" : "Membro associato",
-      "postcode" : "CAP",
       "aantalContracten" : "Numero di  contratti",
-      "postadres" : "Indirizzo postale",
       "aantalKranten" : "Numero di gazetti",
       "automatischeVerlengingContract" : "Rinnovamento automatico del contratto",
       "regioExtraInformatie" : "Regione (informazioni aggiuntive)",
       "overnamekrant" : "Giornale delle acquiszioni",
       "profielnummer" : "Numero profilo",
-      "huisnummer" : "N° civico",
       "staffelAfwijkendeAfspraken" : "Metodo scalare / accordi divergenti *",
       "specialisatie" : "Specializzazione",
       "stilProfielAbonnement" : "Abbonamento profilo silenzioso[tacito] *"

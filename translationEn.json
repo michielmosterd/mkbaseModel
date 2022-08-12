@@ -298,19 +298,30 @@
     "class" : "commons.item"
   }, {
     "language" : "en",
+    "singular" : "Company",
+    "plural" : "Companies",
+    "valueTypeLabels" : {
+      "name" : "(Company) name",
+      "website" : "Website",
+      "naceCode" : "Nace code",
+      "plaats" : "City",
+      "huisnummer" : "House number",
+      "postcode" : "Postal code",
+      "postadres" : "Postal adress"
+    },
+    "generalLabels" : { },
+    "class" : "commons.company"
+  }, {
+    "language" : "en",
     "singular" : "Entity",
     "plural" : "Entity",
     "valueTypeLabels" : {
       "followUp" : "Follow-up",
-      "website" : "Website",
       "ingevoerdDoor" : "Imported by",
       "transeoMarketplace" : "Transeo Marketplace",
-      "BedrijfsNaam" : "(Company) name",
       "profielnummer" : "Number of profile",
-      "land" : "Country",
       "eersteContact" : "Date first contact",
       "sector" : "Sector of industry",
-      "naceCode" : "Nace code",
       "contractsdatum" : "Date of contract",
       "contractvorm" : "Kind of agreement"
     },
@@ -349,25 +360,22 @@
     },
     "generalLabels" : { },
     "class" : "mkbase.koper"
-  }, {
-    "language" : "en",
-    "singular" : "Buyer Direct",
-    "plural" : "Buyer Direct",
-    "valueTypeLabels" : {
-      "overnameMail" : "E-mail",
-      "betaald" : "Paid",
-      "overnamekrant" : "Newspaper",
-      "plaats" : "City",
-      "huisnummer" : "House number",
-      "postcode" : "Postal code",
-      "postadres" : "Postal adress",
-      "automatischeVerlengingContract" : "Automatical prolongation",
-      "mbiContractWeek" : "MBI contract week",
-      "prijsVanContract" : "Price of contract"
-    },
-    "generalLabels" : { },
-    "class" : "mkbase.koperDirect"
-  }, {
+  },  
+{
+        "language" : "en",
+        "singular" : "Buyer Direct",
+        "plural" : "Buyer Direct",
+        "valueTypeLabels" : {
+          "overnameMail" : "E-mail",
+          "betaald" : "Paid",
+          "overnamekrant" : "Newspaper",
+          "automatischeVerlengingContract" : "Automatical prolongation",
+          "mbiContractWeek" : "MBI contract week",
+          "prijsVanContract" : "Price of contract"
+        },
+        "generalLabels" : { },
+        "class" : "mkbase.koperDirect"
+      }, {
     "language" : "en",
     "singular" : "Buyer Indirect",
     "plural" : "Buyer Indirect",
@@ -429,10 +437,6 @@
       "overnameMail" : "E-mail",
       "overnamekrant" : "Newspaper",
       "betaald" : "Paid",
-      "plaats" : "City",
-      "huisnummer" : "House number",
-      "postcode" : "Postal code",
-      "postadres" : "Postal adress",
       "automatischeVerlengingContract" : "Automatical prolongation",
       "prijsVanContract" : "Price of contract"
     },
@@ -452,17 +456,13 @@
     "valueTypeLabels" : {
       "overnameMail" : "E-mail",
       "betaald" : "Paid",
-      "plaats" : "City",
       "geassocieerdLid" : "Associated",
-      "postcode" : "Postal code",
       "aantalContracten" : "Number of contracts",
-      "postadres" : "Postal adress",
       "aantalKranten" : "Aantal kranten79",
       "automatischeVerlengingContract" : "Automatical prolongation",
       "regioExtraInformatie" : "Region (extra information)",
       "overnamekrant" : "Newspaper",
       "profielnummer" : "Number of profile",
-      "huisnummer" : "House number",
       "staffelAfwijkendeAfspraken" : "Pace list/ different agreement(s)",
       "specialisatie" : "Specialisatie77",
       "stilProfielAbonnement" : "Subscription Silence"

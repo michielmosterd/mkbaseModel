@@ -30,30 +30,6 @@
       "list": "mkbase.jaNee"
     },
     {
-      "name": "postadres",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "huisnummer",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "postcode",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "plaats",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
       "name": "prijsVanContract",
       "dataType": "LIST",
       "enabled": true,
@@ -104,32 +80,7 @@
       "items": [
         {
           "type": "FIELD",
-          "name": "BedrijfsNaam",
-          "header": false
-        },
-        {
-          "type": "FIELD",
           "name": "contractvorm",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "postadres",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "huisnummer",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "postcode",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "plaats",
           "header": false
         },
         {
@@ -413,26 +364,6 @@
         {
           "type": "FIELD",
           "name": "contractvorm",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "postadres",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "huisnummer",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "postcode",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "plaats",
           "header": false
         },
         {

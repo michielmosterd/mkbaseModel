@@ -86,30 +86,6 @@
       "enabled": true,
       "required": false,
       "list": "mkbase.sector"
-    },
-    {
-      "name": "postadres",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "huisnummer",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "postcode",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
-      "name": "plaats",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
     }
   ],
   "relations": [
@@ -128,7 +104,7 @@
     },
     {
       "valueType": "name",
-      "formula": "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
+      "formula": "{{profielnummer}} {{contractvorm}}"
     }
   ],
   "layouts": [

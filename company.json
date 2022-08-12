@@ -8,6 +8,11 @@
             "dataType": "LIST",
             "list": "mkbase.land"
           },
+          { "name": "postadres" },
+          { "name": "huisnummer" },
+          { "name": "postcode" },
+          { "name": "plaats" },
+      
           {
             "name": "website",
             "dataType": "HYPERLINK"
@@ -36,9 +41,6 @@
                 },
                 {
                     "name": "website"
-                },
-                {
-                    "name": "naceCode"
                 }
             ]
         }
@@ -52,6 +54,10 @@
                     "header": true
                 },
                 { "name": "land" },
+                { "name": "postadres" },
+                { "name": "huisnummer" },
+                { "name": "postcode" },
+                { "name": "plaats" },
                 { "name": "website" },
                 { "name": "naceCode" }
             ]
@@ -61,6 +67,10 @@
             "items": [
                 { "name": "name" },
                 { "name": "land" },
+                { "name": "postadres" },
+                { "name": "huisnummer" },
+                { "name": "postcode" },
+                { "name": "plaats" },
                 { "name": "website" },
                 { "name": "naceCode" }
             ]

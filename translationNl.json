@@ -304,8 +304,14 @@
       "singular": "Bedrijf",
       "plural": "Bedrijven",
       "valueTypeLabels": {
+        "naceCode": "Nace code",
         "name": "Bedrijfsnaam",
-        "companyWebsite": "Website"
+        "land": "Land",
+        "plaats": "Plaats",
+        "huisnummer": "Huisnummer",
+        "postcode": "Postcode",
+        "postadres": "Postadres",
+        "website": "Website"
       },
       "class": "commons.company"
     },
@@ -315,15 +321,11 @@
       "plural": "Profielen",
       "valueTypeLabels": {
         "followUp": "Follow-up",
-        "website": "Website",
         "ingevoerdDoor": "Ingevoerd door",
         "transeoMarketplace": "Transeo Marketplace",
-        "BedrijfsNaam": "(Bedrijfs)naam",
         "profielnummer": "Profielnummer",
-        "land": "Land",
         "eersteContact": "Eerste contact",
         "sector": "Sector",
-        "naceCode": "Nace code",
         "contractsdatum": "Contractsdatum",
         "contractvorm": "Contractvorm"
       },
@@ -372,10 +374,6 @@
         "overnameMail": "Overname mail",
         "betaald": "Betaald",
         "overnamekrant": "Overnamekrant",
-        "plaats": "Plaats",
-        "huisnummer": "Huisnummer",
-        "postcode": "Postcode",
-        "postadres": "Postadres",
         "automatischeVerlengingContract": "Automatische verlenging contract",
         "mbiContractWeek": "MBI contract week",
         "prijsVanContract": "Prijs van contract"
@@ -447,10 +445,6 @@
         "overnameMail": "Overname mail",
         "overnamekrant": "Overnamekrant",
         "betaald": "Betaald",
-        "plaats": "Plaats",
-        "huisnummer": "Huisnummer",
-        "postcode": "Postcode",
-        "postadres": "Postadres",
         "automatischeVerlengingContract": "Automatische verlenging contract",
         "prijsVanContract": "Prijs van contract"
       },
@@ -472,17 +466,13 @@
       "valueTypeLabels": {
         "overnameMail": "Overname mail",
         "betaald": "Betaald",
-        "plaats": "Plaats",
         "geassocieerdLid": "Geassocieerd lid",
-        "postcode": "Postcode",
         "aantalContracten": "Aantal contracten",
-        "postadres": "Postadres",
         "aantalKranten": "Aantal kranten",
         "automatischeVerlengingContract": "Automatische verlenging contract",
         "regioExtraInformatie": "Regio (extra informatie)",
         "overnamekrant": "Overnamekrant",
         "profielnummer": "Profielnummer",
-        "huisnummer": "Huisnummer",
         "staffelAfwijkendeAfspraken": "Staffel/ afwijkende afspraken",
         "specialisatie": "Specialisatie",
         "stilProfielAbonnement": "Stil profiel abonnement"

@@ -48,6 +48,26 @@
             "type": "LIST"
           },
           {
+            "source": "Postadres",
+            "target": "postadres",
+            "type": "TEXT"
+          },
+          {
+            "source": "Huisnummer",
+            "target": "huisnummer",
+            "type": "TEXT"
+          },
+          {
+            "source": "Postcode",
+            "target": "postcode",
+            "type": "TEXT"
+          },
+          {
+            "source": "Plaats",
+            "target": "plaats",
+            "type": "TEXT"
+          },
+          {
             "source": "Nacecode",
             "target": "naceCode",
             "type": "TEXT"
@@ -130,26 +150,6 @@
             "type": "LIST"
           },
           {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
-          },
-          {
             "source": "Eerstecontact",
             "target": "eersteContact",
             "type": "DATE"
@@ -168,11 +168,6 @@
             "source": "Sector",
             "target": "sector",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -324,26 +319,6 @@
             "type": "LIST"
           },
           {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
-          },
-          {
             "source": "Eerstecontact",
             "target": "eersteContact",
             "type": "DATE"
@@ -362,11 +337,6 @@
             "source": "Sector",
             "target": "sector",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -478,26 +448,6 @@
             "type": "LIST"
           },
           {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
-          },
-          {
             "source": "Eerstecontact",
             "target": "eersteContact",
             "type": "DATE"
@@ -516,11 +466,6 @@
             "source": "Sector",
             "target": "sector",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -647,26 +592,6 @@
             "type": "LIST"
           },
           {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
-          },
-          {
             "source": "Eerstecontact",
             "target": "eersteContact",
             "type": "DATE"
@@ -685,11 +610,6 @@
             "source": "Sector",
             "target": "sector",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -796,26 +716,6 @@
             "type": "LIST"
           },
           {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
-          },
-          {
             "source": "Eerstecontact",
             "target": "eersteContact",
             "type": "DATE"
@@ -834,11 +734,6 @@
             "source": "Sector",
             "target": "sector",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -955,26 +850,6 @@
             "type": "LIST"
           },
           {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
-          },
-          {
             "source": "Eerstecontact",
             "target": "eersteContact",
             "type": "DATE"
@@ -993,11 +868,6 @@
             "source": "Sector",
             "target": "sector",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -1052,26 +922,6 @@
             "source": "Betaald",
             "target": "betaald",
             "type": "LIST"
-          },
-          {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
           },
           {
             "source": "Prijsvancontract",
@@ -1267,11 +1117,6 @@
             "source": "Ingevoerddoor",
             "target": "ingevoerdDoor",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -1510,11 +1355,6 @@
             "type": "LIST"
           },
           {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
-          },
-          {
             "source": "Contract",
             "target": "contractvorm",
             "type": "LIST"
@@ -1584,26 +1424,6 @@
             "source": "Overnamemail",
             "target": "overnameMail",
             "type": "LIST"
-          },
-          {
-            "source": "Postadres",
-            "target": "postadres",
-            "type": "TEXT"
-          },
-          {
-            "source": "Huisnummer",
-            "target": "huisnummer",
-            "type": "TEXT"
-          },
-          {
-            "source": "Postcode",
-            "target": "postcode",
-            "type": "TEXT"
-          },
-          {
-            "source": "Plaats",
-            "target": "plaats",
-            "type": "TEXT"
           },
           {
             "source": "Prijsvancontract",
@@ -1734,11 +1554,6 @@
             "source": "Ingevoerddoor",
             "target": "ingevoerdDoor",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",
@@ -1905,11 +1720,6 @@
             "source": "Ingevoerddoor",
             "target": "ingevoerdDoor",
             "type": "LIST"
-          },
-          {
-            "source": "Naam",
-            "target": "BedrijfsNaam",
-            "type": "TEXT"
           },
           {
             "source": "Contract",

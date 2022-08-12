@@ -40,27 +40,7 @@
       "relatedClass" : "mkbase.regioSite"
     }, {
       "type" : "FIELD",
-      "name" : "BedrijfsNaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "postadres",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "huisnummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "postcode",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "plaats",
       "header" : false
     }, {
       "type" : "FIELD",
@@ -159,27 +139,7 @@
       "relatedClass" : "mkbase.regioSite"
     }, {
       "type" : "FIELD",
-      "name" : "BedrijfsNaam",
-      "header" : false
-    }, {
-      "type" : "FIELD",
       "name" : "contractvorm",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "postadres",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "huisnummer",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "postcode",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "plaats",
       "header" : false
     }, {
       "type" : "FIELD",

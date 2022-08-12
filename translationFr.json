@@ -302,8 +302,15 @@
     "plural" : "Entreprise",
     "valueTypeLabels" : {
       "name" : "Nom de l'entreprise",
-      "companyWebsite": "Site web"
+      "land" : "Pays",
+      "website": "Site web",
+      "naceCode" : "Nace code",
+      "plaats" : "Lieu",
+      "huisnummer" : "Numéro",
+      "postcode" : "Code postal",
+      "postadres" : "Adresse"
     },
+    "generalLabels" : { },
     "class" : "commons.company"
   }, {
       "language" : "fr",
@@ -311,15 +318,11 @@
       "plural" : "Entiteit",
       "valueTypeLabels" : {
         "followUp" : "Suivi",
-        "website" : "Site web",
         "ingevoerdDoor" : "Importé par",
         "transeoMarketplace" : "Transeo Marketplace",
-        "BedrijfsNaam" : "Nom",
         "profielnummer" : "Field.Profielnummer",
-        "land" : "Pays",
         "eersteContact" : "Premier contact",
         "sector" : "Secteur",
-        "naceCode" : "Nace code",
         "contractsdatum" : "Date du contrat",
         "contractvorm" : "contrat"
       },
@@ -366,10 +369,6 @@
       "overnameMail" : "Mail de reprise",
       "betaald" : "Payé",
       "overnamekrant" : "Journal de reprise",
-      "plaats" : "Lieu",
-      "huisnummer" : "Numéro",
-      "postcode" : "Code postal",
-      "postadres" : "Adresse",
       "automatischeVerlengingContract" : "Prolongation automatique contrat",
       "mbiContractWeek" : "MBI contrat semaine",
       "prijsVanContract" : "Prix du contrat"
@@ -438,10 +437,6 @@
       "overnameMail" : "Mail de reprise",
       "overnamekrant" : "Journal de reprise",
       "betaald" : "Payé",
-      "plaats" : "Lieu",
-      "huisnummer" : "Numéro",
-      "postcode" : "Code postal",
-      "postadres" : "Adresse",
       "automatischeVerlengingContract" : "Prolongation automatique contrat",
       "prijsVanContract" : "Prix du contrat"
     },
@@ -461,17 +456,13 @@
     "valueTypeLabels" : {
       "overnameMail" : "Mail de reprise",
       "betaald" : "Payé",
-      "plaats" : "Lieu",
       "geassocieerdLid" : "Membre associé",
-      "postcode" : "Code postal",
       "aantalContracten" : "Nombre de personnes de contact",
-      "postadres" : "Adresse",
       "aantalKranten" : "Nombre de journaux",
       "automatischeVerlengingContract" : "Prolongation automatique contrat",
       "regioExtraInformatie" : "Région (extra information)",
       "overnamekrant" : "Journal de reprise",
       "profielnummer" : "Field.Profielnummer",
-      "huisnummer" : "Numéro",
       "staffelAfwijkendeAfspraken" : "Echelle/ accord dérogatoire",
       "specialisatie" : "Spécialisation",
       "stilProfielAbonnement" : "Abonnement profil silencieux"

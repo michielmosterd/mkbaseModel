@@ -22,12 +22,6 @@
       "list": "mkbase.ingevoerdDoor"
     },
     {
-      "name": "BedrijfsNaam",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": false
-    },
-    {
       "name": "contractvorm",
       "dataType": "LIST",
       "enabled": true,

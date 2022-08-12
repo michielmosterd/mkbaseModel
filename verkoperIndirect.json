@@ -56,11 +56,6 @@
       "items": [
         {
           "type": "FIELD",
-          "name": "BedrijfsNaam",
-          "header": false
-        },
-        {
-          "type": "FIELD",
           "name": "contractvorm",
           "header": false
         }
@@ -319,11 +314,6 @@
         "name": "contact"
       },
       "items": [
-        {
-          "type": "FIELD",
-          "name": "BedrijfsNaam",
-          "header": false
-        },
         {
           "type": "FIELD",
           "name": "contractvorm",
