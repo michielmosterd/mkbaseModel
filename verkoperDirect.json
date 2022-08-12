@@ -412,11 +412,6 @@
         },
         {
           "type": "FIELD",
-          "name": "BedrijfsNaam",
-          "header": false
-        },
-        {
-          "type": "FIELD",
           "name": "contractvorm",
           "header": false
         },

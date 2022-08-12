@@ -6,15 +6,11 @@
         {
             "name": "land",
             "dataType": "LIST",
-            "enabled": true,
-            "required": false,
             "list": "mkbase.land"
           },
           {
             "name": "website",
-            "dataType": "HYPERLINK",
-            "enabled": true,
-            "required": false
+            "dataType": "HYPERLINK"
           },    
           {
             "name": "naceCode"
@@ -63,10 +59,7 @@
         {
             "type": "RELATED_OBJECT",
             "items": [
-                {
-                    "name": "name",
-                    "header": true
-                },
+                { "name": "name" },
                 { "name": "land" },
                 { "name": "website" },
                 { "name": "naceCode" }
