@@ -28,7 +28,11 @@
   } ],
   "layouts" : [ {
     "type" : "OBJECT_FORM_DASHBOARD",
-    "items" : [ {
+    "items" : [ 
+      {
+        "type": "RELATION",
+        "relatedClass": "commons.company"
+      },{
       "type" : "RELATION",
       "relatedClass" : "mkbase.regioSite"
     }, {
