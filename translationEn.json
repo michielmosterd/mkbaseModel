@@ -546,22 +546,6 @@
     "class" : "mkbase.projectontwikkelaar"
   }, {
     "language" : "en",
-    "singular" : "Leverancier",
-    "plural" : "Leverancier",
-    "valueTypeLabels" : { },
-    "generalLabels" : { },
-    "class" : "mkbase.leverancier"
-  }, {
-    "language" : "en",
-    "singular" : "OG",
-    "plural" : "OG",
-    "valueTypeLabels" : {
-      "huurOfKoop" : "Rental or for sale"
-    },
-    "generalLabels" : { },
-    "class" : "mkbase.onroerendGoed"
-  }, {
-    "language" : "en",
     "singular" : "Contactpersoon",
     "plural" : "Contactpersoon",
     "valueTypeLabels" : {

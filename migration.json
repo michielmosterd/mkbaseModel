@@ -1628,63 +1628,6 @@
         "multiple" : false
       } ]
     }, {
-      "source" : "16",
-      "target" : "mkbase.leverancier",
-      "fields" : [ {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      } ],
-      "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      } ]
-    }, {
       "source" : "17",
       "target" : "mkbase.onroerendGoed",
       "fields" : [ {

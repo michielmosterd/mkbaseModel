@@ -546,13 +546,6 @@
     "class" : "mkbase.projectontwikkelaar"
   }, {
     "language" : "fr",
-    "singular" : "Fournisseur",
-    "plural" : "Fournisseur",
-    "valueTypeLabels" : { },
-    "generalLabels" : { },
-    "class" : "mkbase.leverancier"
-  }, {
-    "language" : "fr",
     "singular" : "Immobillier",
     "plural" : "Immobillier",
     "valueTypeLabels" : {

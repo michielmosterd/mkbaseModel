@@ -546,13 +546,6 @@
     "class" : "mkbase.projectontwikkelaar"
   }, {
     "language" : "it",
-    "singular" : "Fornitore",
-    "plural" : "Fornitore",
-    "valueTypeLabels" : { },
-    "generalLabels" : { },
-    "class" : "mkbase.leverancier"
-  }, {
-    "language" : "it",
     "singular" : "Beni immobili",
     "plural" : "Beni immobili",
     "valueTypeLabels" : {

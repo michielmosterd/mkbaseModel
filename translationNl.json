@@ -563,14 +563,6 @@
     },
     {
       "language": "nl",
-      "singular": "Leverancier",
-      "plural": "Leverancier",
-      "valueTypeLabels": {},
-      "generalLabels": {},
-      "class": "mkbase.leverancier"
-    },
-    {
-      "language": "nl",
       "singular": "Onroerend Goed",
       "plural": "Onroerend Goed",
       "valueTypeLabels": {
