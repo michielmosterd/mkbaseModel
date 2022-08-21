@@ -88,6 +88,11 @@
       "type" : "FIELD",
       "name" : "memoDossier",
       "header" : false
+    }, {
+      "type" : "ACTION",
+      "actionType": "OBJECT_CHANGE_CLASS",
+      "label" : "toPossibleMatch",
+      "class": "mkbase.mogelijkeMatch"
     } ],
     "tabPage" : false
   } ],

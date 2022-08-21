@@ -88,7 +88,12 @@
       "type" : "FIELD",
       "name" : "memoDossier",
       "header" : false
-    } ],
+    }, {
+      "type" : "ACTION",
+      "actionType": "OBJECT_CHANGE_CLASS",
+      "label" : "toMatch",
+      "class": "mkbase.match"
+    }  ],
     "tabPage" : false
   } ],
   "inherits" : "mkbase.mappensysteem"
