@@ -35,7 +35,8 @@
     }, {
       "type" : "FIELD",
       "name" : "datum",
-      "header" : false
+      "header" : false,
+      "defaultValue": "0"
     }, {
       "type" : "FIELD",
       "name" : "followUp",
