@@ -48,7 +48,7 @@
   ],
   "relations": [
     {
-      "type": "mkbase.entiteit",
+      "type": "commons.company",
       "required": false,
       "multiple": false,
       "cascadeDelete": false
@@ -84,7 +84,7 @@
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.entiteit"
+          "relatedClass": "commons.company"
         }
       ]
     }
@@ -95,7 +95,7 @@
       "items": [
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.entiteit"
+          "relatedClass": "commons.company"
         },
         {
           "type": "FIELD",
@@ -160,7 +160,7 @@
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.entiteit"
+          "relatedClass": "commons.company"
         },
         {
           "type": "FIELD",

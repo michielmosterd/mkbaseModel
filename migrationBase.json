@@ -1821,7 +1821,8 @@
         "relations": [
           {
             "source": "Entiteit",
-            "target": "mkbase.entiteit",
+            "prefix": "COMPANY",
+            "target": "commons.company",
             "multiple": false
           }
         ]

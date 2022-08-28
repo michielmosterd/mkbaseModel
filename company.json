@@ -84,6 +84,36 @@
             ]
         },
         {
+            "labelKey": {
+                "type": "DATA_CLASS_PLURAL",
+                "name": "mkbase.contactpersoon"
+            },
+            "type": "OBJECT_DASHBOARD",
+            "items": [
+                {
+                    "type": "RELATED_VIEW",
+                    "relatedClass": "mkbase.contactpersoon",
+                    "showTitle": false
+                }
+            ],
+            "tabPage": true
+        },
+        {
+            "labelKey": {
+                "type": "DATA_CLASS_PLURAL",
+                "name": "mkbase.entitet"
+            },
+            "type": "OBJECT_DASHBOARD",
+            "items": [
+                {
+                    "type": "RELATED_VIEW",
+                    "relatedClass": "mkbase.entiteit",
+                    "showTitle": false
+                }
+            ],
+            "tabPage": true
+        },
+        {
             "type": "OBJECT_FORM_DASHBOARD",
             "items": [
                 {
@@ -136,6 +166,11 @@
                 },
                 {
                     "name": "naceCode"
+                },
+                {
+                    "type": "RELATED_VIEW",
+                    "relatedClass": "mkbase.contactpersoon",
+                    "showTitle": false
                 }
             ]
         }
