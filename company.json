@@ -117,9 +117,6 @@
             "type": "RELATED_OBJECT",
             "items": [
                 {
-                    "name": "name"
-                },
-                {
                     "name": "land"
                 },
                 {

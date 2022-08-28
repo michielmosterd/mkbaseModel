@@ -130,6 +130,10 @@
       },
       "items": [
         {
+          "type": "RELATION",
+          "relatedClass": "commons.company"
+        },
+        {
           "type": "RELATED_OBJECT",
           "relatedClass": "commons.company"
         },
