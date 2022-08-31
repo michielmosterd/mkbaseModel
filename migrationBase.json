@@ -1826,6 +1826,178 @@
             "multiple": false
           }
         ]
+      },
+      {
+        "source" : "19",
+        "target" : "mkbase.gearchiveerdeMemo",
+        "fields" : [ {
+          "source" : "Followup",
+          "target" : "followUp",
+          "type" : "DATE"
+        }, {
+          "source" : "Resultaatcontact",
+          "target" : "resultaatContact",
+          "type" : "LIST"
+        }, {
+          "source" : "Datum",
+          "target" : "datum",
+          "type" : "DATE"
+        }, {
+          "source" : "ContactpersoonMKBase",
+          "target" : "schrijverMemo",
+          "type" : "TEXT"
+        }, {
+          "source" : "Kernwoord",
+          "target" : "kernwoord",
+          "type" : "TEXT"
+        }, {
+          "source" : "Opmerking",
+          "target" : "opmerking",
+          "type" : "TEXTBLOCK"
+        } ],
+        "relations" : [ {
+          "source" : "Entiteit",
+          "target" : "mkbase.entiteit",
+          "multiple" : false
+        } ]
+      },
+      {
+        "source" : "31",
+        "target" : "mkbase.gearchiveerdeMemo",
+        "fields" : [ {
+          "source" : "Resultaatcontact",
+          "target" : "resultaatContact",
+          "type" : "LIST"
+        }, {
+          "source" : "Datum",
+          "target" : "datum",
+          "type" : "DATE"
+        }, {
+          "source" : "ContactpersoonMKBase",
+          "target" : "schrijverMemo",
+          "type" : "TEXT"
+        }, {
+          "source" : "Kernwoord",
+          "target" : "kernwoord",
+          "type" : "TEXT"
+        }, {
+          "source" : "Opmerking",
+          "target" : "opmerking",
+          "type" : "TEXTBLOCK"
+        } ],
+        "relations" : [ {
+          "source" : "Entiteit",
+          "target" : "mkbase.entiteit",
+          "multiple" : false
+        } ]
+      },
+      {
+        "source" : "24",
+        "target" : "mkbase.match",
+        "fields" : [ {
+          "source" : "MemoDossier",
+          "target" : "memoDossier",
+          "type" : "TEXTBLOCK"
+        }, {
+          "source" : "contactFase",
+          "target" : "faseVanContact",
+          "type" : "LIST"
+        }, {
+          "source" : "Sector",
+          "target" : "sector",
+          "type" : "LIST"
+        }, {
+          "source" : "overnamesomrange",
+          "target" : "overnamesomRange",
+          "type" : "LIST"
+        }, {
+          "source" : "dealinformatie",
+          "target" : "dealInformatie",
+          "type" : "TEXTBLOCK"
+        }, {
+          "source" : "Subsector",
+          "target" : "subsector",
+          "type" : "LIST"
+        }, {
+          "source" : "dossierStart",
+          "target" : "start",
+          "type" : "DATE"
+        }, {
+          "source" : "dossierEnd",
+          "target" : "gesloten",
+          "type" : "DATE"
+        }, {
+          "source" : "_summary",
+          "target" : "summary",
+          "type" : "TEXT"
+        } ],
+        "relations" : [ {
+          "source" : "Koper",
+          "target" : "mkbase.koper",
+          "multiple" : false
+        }, {
+          "source" : "Verkoper",
+          "target" : "mkbase.verkoper",
+          "multiple" : false
+        } ]
+      }, {
+        "source" : "25",
+        "target" : "mkbase.mogelijkeMatch",
+        "fields" : [ {
+          "source" : "MogelijkeMatch",
+          "target" : "mogelijkeMatch",
+          "type" : "LIST"
+        }, {
+          "source" : "MemoDossier",
+          "target" : "memoDossier",
+          "type" : "TEXTBLOCK"
+        }, {
+          "source" : "dossierStart",
+          "target" : "start",
+          "type" : "DATE"
+        }, {
+          "source" : "dossierEnd",
+          "target" : "gesloten",
+          "type" : "DATE"
+        } ],
+        "relations" : [ {
+          "source" : "Koper",
+          "target" : "mkbase.koper",
+          "multiple" : false
+        }, {
+          "source" : "Verkoper",
+          "target" : "mkbase.verkoper",
+          "multiple" : false
+        } ]
+      }, {
+        "source" : "26",
+        "target" : "mkbase.teOnderzoekenMatch",
+        "fields" : [ {
+          "source" : "Teonderzoekenmatch",
+          "target" : "teOnderzoekenMatch",
+          "type" : "LIST"
+        }, {
+          "source" : "MemoDossier",
+          "target" : "memoDossier",
+          "type" : "TEXTBLOCK"
+        }, {
+          "source" : "dossierStart",
+          "target" : "start",
+          "type" : "DATE"
+        }, {
+          "source" : "dossierEnd",
+          "target" : "gesloten",
+          "type" : "DATE"
+        } ],
+        "relations" : [ {
+          "source" : "Koper",
+          "target" : "mkbase.koper",
+          "multiple" : false
+        }, {
+          "source" : "Verkoper",
+          "target" : "mkbase.verkoper",
+          "multiple" : false
+        } ]
       }
     ],
     "valueMap": {
