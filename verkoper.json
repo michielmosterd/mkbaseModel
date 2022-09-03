@@ -241,7 +241,7 @@
     },
     {
       "valueType": "name",
-      "formula": "{{profielnummer}} {{profielstatus}} {{contractvorm}}"
+      "formula": "{{profielnummer}} {{company-name}} {{profielstatus}} {{contractvorm}}"
     }
   ],
   "views": [

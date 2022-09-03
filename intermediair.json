@@ -104,7 +104,7 @@
     },
     {
       "valueType": "name",
-      "formula": "{{profielnummer}} {{contractvorm}}"
+      "formula": "{{profielnummer}} {{company-name}} {{contractvorm}}"
     }
   ],
   "layouts": [

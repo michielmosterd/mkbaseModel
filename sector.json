@@ -24,6 +24,11 @@
           "type": "FIELD",
           "name": "name",
           "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "code",
+          "header": false
         }
       ],
       "tabPage": false
