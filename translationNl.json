@@ -571,16 +571,6 @@
     },
     {
       "language": "nl",
-      "singular": "Onroerend Goed",
-      "plural": "Onroerend Goed",
-      "valueTypeLabels": {
-        "huurOfKoop": "Huur of koop"
-      },
-      "generalLabels": {},
-      "class": "mkbase.onroerendGoed"
-    },
-    {
-      "language": "nl",
       "singular": "Contactpersoon",
       "plural": "Contactpersoon",
       "valueTypeLabels": {

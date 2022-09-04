@@ -29,7 +29,12 @@
       ]
     }
   ],
-
+  "formulas": [
+    {
+        "valueType": "objectLabel",
+        "formula": "memo"
+    }
+  ],
   "layouts": [
     {
       "type": "OBJECT_FORM_DASHBOARD",
@@ -46,6 +51,7 @@
       "type": "OBJECT_DASHBOARD",
       "items": [
         { "name": "name", "header": true },
+        { "name": "objectLabel" },
         { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
         { "name": "objectLabel" },
         { "name": "datum" },

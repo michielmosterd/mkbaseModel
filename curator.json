@@ -9,7 +9,12 @@
     "list" : "mkbase.jaNee"
   } ],
   "relations" : [ ],
-  "formulas" : [ ],
+  "formulas": [
+    {
+        "valueType": "objectLabel",
+        "formula": "curator"
+    }
+  ],
   "views" : [ {
     "defaultView" : true,
     "relationView" : true,

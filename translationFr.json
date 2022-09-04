@@ -546,15 +546,6 @@
     "class" : "mkbase.projectontwikkelaar"
   }, {
     "language" : "fr",
-    "singular" : "Immobillier",
-    "plural" : "Immobillier",
-    "valueTypeLabels" : {
-      "huurOfKoop" : "Location ou vente"
-    },
-    "generalLabels" : { },
-    "class" : "mkbase.onroerendGoed"
-  }, {
-    "language" : "fr",
     "singular" : "contact",
     "plural" : "contact",
     "valueTypeLabels" : {

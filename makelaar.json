@@ -15,7 +15,12 @@
     "list" : "mkbase.huurKoopOg"
   } ],
   "relations" : [ ],
-  "formulas" : [ ],
+  "formulas": [
+    {
+        "valueType": "objectLabel",
+        "formula": "makelaar"
+    }
+  ],
   "views" : [ {
     "defaultView" : true,
     "relationView" : true,

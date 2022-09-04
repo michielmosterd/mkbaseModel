@@ -546,15 +546,6 @@
     "class" : "mkbase.projectontwikkelaar"
   }, {
     "language" : "it",
-    "singular" : "Beni immobili",
-    "plural" : "Beni immobili",
-    "valueTypeLabels" : {
-      "huurOfKoop" : "Affitto o acquisto"
-    },
-    "generalLabels" : { },
-    "class" : "mkbase.onroerendGoed"
-  }, {
-    "language" : "it",
     "singular" : "Persona di contatto",
     "plural" : "Persona di contatto",
     "valueTypeLabels" : {

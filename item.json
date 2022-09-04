@@ -12,7 +12,6 @@
     "mkbase.franchisegever",
     "mkbase.makelaar",
     "mkbase.projectontwikkelaar",
-    "mkbase.onroerendGoed",
     "mkbase.contactpersoon",
     "mkbase.memo",
     "mkbase.document",
@@ -49,6 +48,36 @@
       "name": "mkbase.objectLabels",
       "items": [
         {
+          "key": "adviseur",
+          "color": "white",
+          "backgroundColor": "#CC3333"
+        },
+        {
+          "key": "company",
+          "color": "white",
+          "backgroundColor": "blue"
+        },
+        {
+          "key": "contactpersoon",
+          "color": "white",
+          "backgroundColor": "#292929"
+        },
+        {
+          "key": "curator",
+          "color": "white",
+          "backgroundColor": "#CC3333"
+        },
+        {
+          "key": "document",
+          "color": "white",
+          "backgroundColor": "green"
+        },
+        {
+          "key": "franchisegever",
+          "color": "white",
+          "backgroundColor": "#CC3333"
+        },
+        {
           "key": "koperDirect",
           "color": "white",
           "backgroundColor": "#77AEE8"
@@ -59,37 +88,27 @@
           "backgroundColor": "#026DE8"
         },
         {
-          "key": "verkoperDirect",
-          "color": "white",
-          "backgroundColor": "#FF8214"
-        },
-        {
-          "key": "verkoperIndirect",
-          "color": "white",
-          "backgroundColor": "#CC9966"
-        },
-        {
-          "key": "ventureCapitalist",
-          "color": "white",
-          "backgroundColor": "#52B580"
-        },
-        {
-          "key": "adviseur",
+          "key": "makelaar",
           "color": "white",
           "backgroundColor": "#CC3333"
         },
         {
-          "key": "onroerendGoed",
-          "color": "white",
-          "backgroundColor": "#693B44"
-        },
-        {
-          "key": "contactpersoon",
-          "color": "white",
-          "backgroundColor": "#292929"
-        },
-        {
           "key": "match",
+          "color": "white",
+          "backgroundColor": "#CC3333"
+        },
+        {
+          "key": "memo",
+          "color": "black",
+          "backgroundColor": "yellow"
+        },
+        {
+          "key": "mogelijkeMatch",
+          "color": "white",
+          "backgroundColor": "#CC3333"
+        },
+        {
+          "key": "projectontwikkelaar",
           "color": "white",
           "backgroundColor": "#CC3333"
         },
@@ -99,14 +118,29 @@
           "backgroundColor": "#FF8598"
         },
         {
-          "key": "company",
-          "color": "white",
-          "backgroundColor": "blue"
-        },
-        {
           "key": "sector",
           "color": "white",
           "backgroundColor": "green"
+        },
+        {
+          "key": "teOnderzoekenMatch",
+          "color": "white",
+          "backgroundColor": "#CC3333"
+        },
+        {
+          "key": "ventureCapitalist",
+          "color": "white",
+          "backgroundColor": "#52B580"
+        },
+        {
+          "key": "verkoperDirect",
+          "color": "white",
+          "backgroundColor": "#FF8214"
+        },
+        {
+          "key": "verkoperIndirect",
+          "color": "white",
+          "backgroundColor": "#CC9966"
         }
       ]
     },

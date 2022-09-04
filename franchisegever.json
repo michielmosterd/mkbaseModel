@@ -34,7 +34,12 @@
     "required" : false
   } ],
   "relations" : [ ],
-  "formulas" : [ ],
+  "formulas": [
+    {
+        "valueType": "objectLabel",
+        "formula": "franchisegever"
+    }
+  ],
   "views" : [ {
     "defaultView" : true,
     "relationView" : true,

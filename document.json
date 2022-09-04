@@ -23,10 +23,15 @@
     "multiple" : false,
     "cascadeDelete" : false
   } ],
-  "formulas" : [ {
-    "valueType" : "name",
-    "formula" : "{{titel}}"
-  } ],
+  "formulas": [
+    {
+        "valueType": "objectLabel",
+        "formula": "document"
+    },
+    {
+      "valueType" : "name",
+      "formula" : "{{titel}}"
+    } ],
   "views" : [ {
     "defaultView" : true,
     "relationView" : true,

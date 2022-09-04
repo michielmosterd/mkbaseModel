@@ -1784,7 +1784,7 @@
           },
           {
             "source": "Email",
-            "target": "eMailAdres",
+            "target": "emailAddress",
             "type": "EMAIL"
           },
           {
@@ -1804,12 +1804,12 @@
           },
           {
             "source": "Achternaam",
-            "target": "achternaam",
+            "target": "lastName",
             "type": "TEXT"
           },
           {
             "source": "Voornaam",
-            "target": "voornaam",
+            "target": "firstName",
             "type": "TEXT"
           },
           {

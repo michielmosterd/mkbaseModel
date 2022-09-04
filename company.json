@@ -59,6 +59,11 @@
                 {
                     "name": "name",
                     "header": true
+                }, 
+                {
+                    "type" : "FIELD",
+                    "name" : "objectLabel",
+                    "header" : false
                 },
                 {
                     "name": "land"

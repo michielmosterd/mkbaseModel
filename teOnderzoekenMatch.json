@@ -16,6 +16,10 @@
   "formulas" : [ {
     "valueType" : "name",
     "formula" : "{{teOnderzoekenMatch}}"
+  },
+  {
+    "valueType" : "objectLabel",
+    "formula" : "teOnderzoekenMatch"
   } ],
   "views" : [ {
     "defaultView" : true,
