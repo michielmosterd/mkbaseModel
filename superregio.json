@@ -1,28 +1,28 @@
 {
-  "class": "mkbase.superRegio",
-  "type": "ABSTRACT",
-  "relations": [
-    {
-      "type": "mkbase.subRegio",
-      "multiple": true
-    }
-  ],
-  "inherits": "mkbase.regioSite",
-  "layouts": [
-    {
-      "labelKey": {
-        "type": "DATA_CLASS_PLURAL",
-        "name": "mkbase.subRegio"
-      },
-      "type": "OBJECT_DASHBOARD",
-      "items": [
-        {
-          "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.subRegio",
-          "showTitle": false
-        }
-      ],
-      "tabPage": true
-    }
-  ]
-}
+    "class": "mkbase.superRegio",
+    "type": "ABSTRACT",
+    "relations": [
+      {
+        "type": "mkbase.subRegio",
+        "multiple": true
+      }
+    ],
+    "inherits": "mkbase.regioSite",
+    "layouts": [
+      {
+        "labelKey": {
+          "type": "DATA_CLASS_PLURAL",
+          "name": "mkbase.subRegio"
+        },
+        "type": "OBJECT_DASHBOARD",
+        "items": [
+          {
+            "type": "RELATED_VIEW",
+            "relatedClass": "mkbase.subRegio",
+            "showTitle": false
+          }
+        ],
+        "tabPage": true
+      }
+    ]
+  }
