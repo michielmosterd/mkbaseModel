@@ -219,9 +219,17 @@
           "showTitle": true
         },
         {
+          "type": "TEXT",
+          "label": "LABEL:sectorSearch"
+        },
+        {
           "type": "RELATED_VIEW",
           "relatedClass": "mkbase.subSector",
           "showTitle": true
+        },
+        {
+          "type": "TEXT",
+          "label": "LABEL:regioSearch"
         },
         {
           "type": "RELATED_VIEW",

@@ -88,17 +88,5 @@
             }
           ]
         }
-      ],
-      "translations": [
-        {
-          "language": "nl",
-          "generalLabels": {
-            "search": "Zoek profielen",
-            "welcomeText": "Welkom, dit is de Matching Manager ....",
-            "siteInfo": "Site Info",
-            "sectorSearch": "Dit profiel kan gevonden worden onder de volgende sectoren:",
-            "regioSearch": "Dit profiel kan gevonden worden onder de volgende regio's:"
-          }
-        }
       ]
     }
