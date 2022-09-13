@@ -18,6 +18,9 @@
       "singular": "Base subject",
       "plural": "Base subject",
       "valueTypeLabels": {
+        "sectorSearch": "Dit profiel kan gevonden worden onder de volgende sectoren:",
+        "regioSearch": "Dit profiel kan gevonden worden onder de volgende regio's:",
+
         "objectLabel": "Label",
         "mkbase.soortAdviseur:ACC": "Accountant",
         "mkbase.resultaatContact:I": "I verstuurd + informatie intern",

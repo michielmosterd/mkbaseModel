@@ -53,7 +53,6 @@
         { "name": "name", "header": true },
         { "name": "objectLabel" },
         { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
-        { "name": "objectLabel" },
         { "name": "datum" },
         { "name": "kernwoord" },
         { "name": "resultaatContact" },
