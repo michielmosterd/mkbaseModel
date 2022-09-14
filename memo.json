@@ -20,16 +20,20 @@
         "formula": "memo"
     }
   ],
-  "views" : [ {
-    "defaultView" : true,
-    "relationView" : true,
-    "defaultSort" : "name",
-    "values" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : false
-    } ]
-  } ],
+  "views": [
+    {
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "datum,desc",
+      "values": [
+        { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
+        { "name": "datum" },
+        { "name": "resultaatContact" },
+        { "name": "opmerking" },
+        { "type": "RELATION", "relatedClass": "commons.person" }
+      ]
+    }
+  ],
   "layouts" : [ {
     "type" : "OBJECT_FORM_DASHBOARD",
     "items" : [ {
