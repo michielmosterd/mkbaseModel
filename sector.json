@@ -13,7 +13,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "sector"
+      "template": "sector"
     }
   ],
   "layouts": [

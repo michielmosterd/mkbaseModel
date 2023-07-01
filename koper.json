@@ -158,11 +158,11 @@
   "formulas": [
     {
       "valueType": "profielnummer",
-      "formula": "B{{identifier \"KoperReeks\"}}"
+      "template": "B{{identifier \"KoperReeks\"}}"
     },
     {
       "valueType": "name",
-      "formula": "{{profielnummer}} {{company-name}} {{profielstatus}} {{contractvorm}}"
+      "template": "{{profielnummer}} {{company-name}} {{profielstatus}} {{contractvorm}}"
     }
   ],
   "views": [

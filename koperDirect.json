@@ -47,7 +47,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "koperDirect"
+      "template": "koperDirect"
     }
   ],
   "layouts": [

@@ -31,7 +31,7 @@
     "formulas": [
         {
             "valueType": "objectLabel",
-            "formula": "company"
+            "template": "company"
         }
     ],
     "views": [

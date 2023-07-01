@@ -26,7 +26,7 @@
   "formulas": [
     {
         "valueType": "objectLabel",
-        "formula": "document"
+        "template": "document"
     },
     {
       "valueType" : "name",

@@ -13,7 +13,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "koperIndirect"
+      "template": "koperIndirect"
     }
   ],
   "layouts": [

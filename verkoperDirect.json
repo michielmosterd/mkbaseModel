@@ -40,7 +40,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "verkoperDirect"
+      "template": "verkoperDirect"
     }
   ],
   "layouts": [

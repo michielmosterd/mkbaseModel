@@ -13,7 +13,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "verkoperIndirect"
+      "template": "verkoperIndirect"
     }
   ],
   "layouts": [

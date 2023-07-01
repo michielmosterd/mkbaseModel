@@ -13,7 +13,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "regioSite"
+      "template": "regioSite"
     }
   ],
   "views": [

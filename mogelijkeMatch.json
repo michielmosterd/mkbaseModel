@@ -19,7 +19,7 @@
   },
   {
       "valueType": "objectLabel",
-      "formula": "mogelijkeMatch"
+      "template": "mogelijkeMatch"
   } ],
   "views" : [ {
     "defaultView" : true,

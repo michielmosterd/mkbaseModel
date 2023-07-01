@@ -57,11 +57,11 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "formula": "contactpersoon"
+      "template": "contactpersoon"
     },
     {
       "valueType": "name",
-      "formula": "{{geslacht}} {{voorletters}} {{lastName}}"
+      "template": "{{geslacht}} {{voorletters}} {{lastName}}"
     }
   ],
   "views": [

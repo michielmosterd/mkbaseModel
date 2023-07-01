@@ -37,7 +37,7 @@
   "formulas": [
     {
         "valueType": "objectLabel",
-        "formula": "franchisegever"
+        "template": "franchisegever"
     }
   ],
   "views" : [ {

@@ -100,11 +100,11 @@
   "formulas": [
     {
       "valueType": "profielnummer",
-      "formula": "I{{identifier \"IntermediairReeks\"}}"
+      "template": "I{{identifier \"IntermediairReeks\"}}"
     },
     {
       "valueType": "name",
-      "formula": "{{profielnummer}} {{company-name}} {{contractvorm}}"
+      "template": "{{profielnummer}} {{company-name}} {{contractvorm}}"
     }
   ],
   "layouts": [

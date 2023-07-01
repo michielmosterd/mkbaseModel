@@ -12,7 +12,7 @@
   "formulas": [
     {
         "valueType": "objectLabel",
-        "formula": "curator"
+        "template": "curator"
     }
   ],
   "views" : [ {

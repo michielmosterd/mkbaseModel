@@ -17,7 +17,7 @@
  "formulas": [
     {
         "valueType": "objectLabel",
-        "formula": "memo"
+        "template": "memo"
     }
   ],
   "views": [

@@ -237,11 +237,11 @@
   "formulas": [
     {
       "valueType": "profielnummer",
-      "formula": "S{{identifier \"VerkoperReeks\"}}"
+      "template": "S{{identifier \"VerkoperReeks\"}}"
     },
     {
       "valueType": "name",
-      "formula": "{{profielnummer}} {{company-name}} {{profielstatus}} {{contractvorm}}"
+      "template": "{{profielnummer}} {{company-name}} {{profielstatus}} {{contractvorm}}"
     }
   ],
   "views": [
