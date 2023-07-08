@@ -158,7 +158,7 @@
   "formulas": [
     {
       "valueType": "profielnummer",
-      "template": "B{{identifier \"KoperReeks\"}}"
+      "template": "concat('B', identifier('KoperReeks'))"
     },
     {
       "valueType": "name",

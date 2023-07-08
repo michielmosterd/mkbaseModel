@@ -237,7 +237,7 @@
   "formulas": [
     {
       "valueType": "profielnummer",
-      "template": "S{{identifier \"VerkoperReeks\"}}"
+      "template": "concat('S', identifier('VerkoperReeks'))'"
     },
     {
       "valueType": "name",
