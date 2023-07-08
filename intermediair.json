@@ -100,7 +100,7 @@
   "formulas": [
     {
       "valueType": "profielnummer",
-      "template": "concat('I', identifier('IntermediairReeks'))"
+      "formula": "concat('I', identifier('IntermediairReeks'))"
     },
     {
       "valueType": "name",
