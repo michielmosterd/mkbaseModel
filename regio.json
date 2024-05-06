@@ -1,14 +1,7 @@
 {
   "class": "mkbase.regio",
   "type": "BASIC",
-  "valueTypes": [
-    {
-      "name": "code",
-      "dataType": "TEXT",
-      "enabled": true,
-      "required": true
-    }
-  ],
+  "valueTypes": [ ],
   "relations": [
     {
       "type": "mkbase.superRegio",
@@ -45,9 +38,8 @@
           "header": false
         },
         {
-          "type": "FIELD",
-          "name": "code",
-          "header": false
+          "type": "RELATION",
+          "relatedClass": "mkbase.superRegio"
         }
       ],
       "tabPage": false
@@ -63,11 +55,6 @@
         {
           "type": "FIELD",
           "name": "objectLabel",
-          "header": false
-        },
-        {
-          "type": "FIELD",
-          "name": "code",
           "header": false
         }
       ],
@@ -127,18 +114,15 @@
       "objects": [
         {
           "importId": "SUBJECT131014",
-          "name": "Andere naam",
-          "code": "Benelux"
+          "name": "Benelux"
         },
         {
           "importId": "SUBJECT131024",
-          "name": "Internationaal",
-          "code": "INT"
+          "name": "Internationaal"
         },
         {
           "importId": "SUBJECT131012",
           "name": "Benelux",
-          "code": "BEn",
           "superRegios": [
             "SUBJECT131024"
           ]
@@ -146,7 +130,6 @@
         {
           "importId": "SUBJECT130997",
           "name": "Heel Belgie",
-          "code": "BEL",
           "superRegios": [
             "SUBJECT131012"
           ]
@@ -154,7 +137,6 @@
         {
           "importId": "SUBJECT131019",
           "name": "Heel Frankrijk",
-          "code": "Frankrijk",
           "superRegios": [
             "SUBJECT131024"
           ]
@@ -162,7 +144,6 @@
         {
           "importId": "SUBJECT131023",
           "name": "Heel Nederland",
-          "code": "HEEL NED",
           "superRegios": [
             "SUBJECT131012"
           ]
@@ -170,7 +151,6 @@
         {
           "importId": "SUBJECT131005",
           "name": "Groothertogdom (LUX)",
-          "code": "BEL-LUX",
           "superRegios": [
             "SUBJECT131012"
           ]
@@ -178,7 +158,6 @@
         {
           "importId": "SUBJECT131146",
           "name": "Frankrijk  - Zuid Oost",
-          "code": "Fran-Zuidoost",
           "superRegios": [
             "SUBJECT131019"
           ]
@@ -186,7 +165,6 @@
         {
           "importId": "SUBJECT131147",
           "name": "Frankrijk - Noord Oost",
-          "code": "Fran-Oost",
           "superRegios": [
             "SUBJECT131019"
           ]
@@ -194,7 +172,6 @@
         {
           "importId": "SUBJECT131145",
           "name": "Frankrijk - Noord West",
-          "code": "Fran-No",
           "superRegios": [
             "SUBJECT131019"
           ]
@@ -202,7 +179,6 @@
         {
           "importId": "SUBJECT131148",
           "name": "Frankrijk - Zuid West",
-          "code": "Fran-zuidwest",
           "superRegios": [
             "SUBJECT131019"
           ]
@@ -210,7 +186,6 @@
         {
           "importId": "SUBJECT130998",
           "name": "Heel Vlaanderen",
-          "code": "BEL-AA",
           "superRegios": [
             "SUBJECT130997"
           ]
@@ -218,7 +193,6 @@
         {
           "importId": "SUBJECT130999",
           "name": "Heel Wallonie",
-          "code": "BEL-AB",
           "superRegios": [
             "SUBJECT130997"
           ]
@@ -226,7 +200,6 @@
         {
           "importId": "SUBJECT131031",
           "name": "Noord Nederland",
-          "code": "NONL",
           "superRegios": [
             "SUBJECT131023"
           ]
@@ -234,7 +207,6 @@
         {
           "importId": "SUBJECT131032",
           "name": "Oost Nederland",
-          "code": "ONL",
           "superRegios": [
             "SUBJECT131023"
           ]
@@ -242,7 +214,6 @@
         {
           "importId": "SUBJECT131039",
           "name": "West Nederland",
-          "code": "WNL",
           "superRegios": [
             "SUBJECT131023"
           ]
@@ -250,7 +221,6 @@
         {
           "importId": "SUBJECT131042",
           "name": "Zuid Nederland",
-          "code": "ZNED",
           "superRegios": [
             "SUBJECT131023"
           ]
@@ -258,7 +228,6 @@
         {
           "importId": "SUBJECT131027",
           "name": "Midden Nederland",
-          "code": "MIDNL",
           "superRegios": [
             "SUBJECT131023"
           ]
@@ -266,7 +235,6 @@
         {
           "importId": "SUBJECT131034",
           "name": "Randstad",
-          "code": "RAND",
           "superRegios": [
             "SUBJECT131023"
           ]
@@ -274,7 +242,6 @@
         {
           "importId": "SUBJECT131393",
           "name": "Frankrijk - DOM-TOM",
-          "code": "FranDOMTOM",
           "superRegios": [
             "SUBJECT131019"
           ]
@@ -282,7 +249,6 @@
         {
           "importId": "SUBJECT131392",
           "name": "Frankrijk - Parijs, Ile-de-France",
-          "code": "Fran-paris",
           "superRegios": [
             "SUBJECT131019"
           ]
@@ -290,7 +256,6 @@
         {
           "importId": "SUBJECT131006",
           "name": "Luxemburg",
-          "code": "BEL-LUX",
           "superRegios": [
             "SUBJECT130999"
           ]
@@ -298,7 +263,6 @@
         {
           "importId": "SUBJECT131000",
           "name": "Antwerpen",
-          "code": "BEL-ANT",
           "superRegios": [
             "SUBJECT130998"
           ]
@@ -306,7 +270,6 @@
         {
           "importId": "SUBJECT131016",
           "name": "Drenthe",
-          "code": "DRE",
           "superRegios": [
             "SUBJECT131032",
             "SUBJECT131031"
@@ -315,7 +278,6 @@
         {
           "importId": "SUBJECT131017",
           "name": "Flevoland",
-          "code": "FLEV",
           "superRegios": [
             "SUBJECT131027"
           ]
@@ -323,7 +285,6 @@
         {
           "importId": "SUBJECT131018",
           "name": "Friesland",
-          "code": "FR",
           "superRegios": [
             "SUBJECT131031"
           ]
@@ -331,7 +292,6 @@
         {
           "importId": "SUBJECT131020",
           "name": "Gelderland",
-          "code": "GELD",
           "superRegios": [
             "SUBJECT131032"
           ]
@@ -339,7 +299,6 @@
         {
           "importId": "SUBJECT131021",
           "name": "Groningen",
-          "code": "GRO",
           "superRegios": [
             "SUBJECT131031"
           ]
@@ -347,7 +306,6 @@
         {
           "importId": "SUBJECT131026",
           "name": "Limburg",
-          "code": "LIM",
           "superRegios": [
             "SUBJECT131042"
           ]
@@ -355,7 +313,6 @@
         {
           "importId": "SUBJECT131028",
           "name": "Noord-Brabant",
-          "code": "NBR",
           "superRegios": [
             "SUBJECT131042"
           ]
@@ -363,7 +320,6 @@
         {
           "importId": "SUBJECT131029",
           "name": "Noord-Holland",
-          "code": "NHOL",
           "superRegios": [
             "SUBJECT131039",
             "SUBJECT131027",
@@ -373,7 +329,6 @@
         {
           "importId": "SUBJECT131033",
           "name": "Overijssel",
-          "code": "OV",
           "superRegios": [
             "SUBJECT131032"
           ]
@@ -381,7 +336,6 @@
         {
           "importId": "SUBJECT131036",
           "name": "Utrecht",
-          "code": "UT",
           "superRegios": [
             "SUBJECT131027",
             "SUBJECT131034"
@@ -390,7 +344,6 @@
         {
           "importId": "SUBJECT131040",
           "name": "Zeeland",
-          "code": "ZEE",
           "superRegios": [
             "SUBJECT131042"
           ]
@@ -398,7 +351,6 @@
         {
           "importId": "SUBJECT131041",
           "name": "Zuid-Holland",
-          "code": "ZHOL",
           "superRegios": [
             "SUBJECT131039",
             "SUBJECT131034"
@@ -407,7 +359,6 @@
         {
           "importId": "SUBJECT131002",
           "name": "Henegouwen",
-          "code": "BEL-HEN",
           "superRegios": [
             "SUBJECT130999"
           ]
@@ -415,7 +366,6 @@
         {
           "importId": "SUBJECT131003",
           "name": "Limburg (Belgie)",
-          "code": "BEL-LIM",
           "superRegios": [
             "SUBJECT130998"
           ]
@@ -423,7 +373,6 @@
         {
           "importId": "SUBJECT131004",
           "name": "Luik",
-          "code": "BEL-LUIK",
           "superRegios": [
             "SUBJECT130999"
           ]
@@ -431,7 +380,6 @@
         {
           "importId": "SUBJECT131007",
           "name": "Namen",
-          "code": "BEL-NAM",
           "superRegios": [
             "SUBJECT130999"
           ]
@@ -439,7 +387,6 @@
         {
           "importId": "SUBJECT131008",
           "name": "Oost Vlaanderen",
-          "code": "BEL-OVLA",
           "superRegios": [
             "SUBJECT130998"
           ]
@@ -447,7 +394,6 @@
         {
           "importId": "SUBJECT131009",
           "name": "Vlaams Brabant",
-          "code": "BEL-VLABRA",
           "superRegios": [
             "SUBJECT130998"
           ]
@@ -455,7 +401,6 @@
         {
           "importId": "SUBJECT131001",
           "name": "Brussel",
-          "code": "BEL-BRU",
           "superRegios": [
             "SUBJECT130997"
           ]
@@ -463,7 +408,6 @@
         {
           "importId": "SUBJECT131010",
           "name": "Waals Brabant",
-          "code": "BEL-WABRA",
           "superRegios": [
             "SUBJECT130999"
           ]
@@ -471,7 +415,6 @@
         {
           "importId": "SUBJECT131011",
           "name": "West Vlaanderen",
-          "code": "BEL-WEVLA",
           "superRegios": [
             "SUBJECT130998"
           ]
@@ -479,7 +422,6 @@
         {
           "importId": "SUBJECT130996",
           "name": "Achterhoek",
-          "code": "ACHT",
           "superRegios": [
             "SUBJECT131020"
           ]
@@ -487,7 +429,6 @@
         {
           "importId": "SUBJECT131035",
           "name": "Twente",
-          "code": "TW",
           "superRegios": [
             "SUBJECT131033"
           ]
