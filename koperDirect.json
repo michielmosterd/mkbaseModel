@@ -60,7 +60,7 @@
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.regioSite"
+          "relatedClass": "mkbase.regio"
         }
       ]
     },
@@ -283,7 +283,7 @@
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.regioSite"
+          "relatedClass": "mkbase.regio"
         },
         {
           "type": "RELATION",

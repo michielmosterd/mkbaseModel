@@ -143,7 +143,7 @@
   ],
   "relations": [
     {
-      "type": "mkbase.regioSite",
+      "type": "mkbase.regio",
       "inherit": "mkbase.superRegio",
       "required": true,
       "multiple": false
@@ -174,7 +174,7 @@
         { "name": "profielnummer" },
         { "type": "RELATION", "relatedClass": "commons.company" },
         { "name": "contractvorm" },
-        { "type": "RELATION", "relatedClass": "mkbase.regioSite" },
+        { "type": "RELATION", "relatedClass": "mkbase.regio" },
         { "type": "RELATION", "relatedClass": "mkbase.sector" },
         { "name": "objectLabel" }
       ]

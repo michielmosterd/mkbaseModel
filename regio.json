@@ -1,5 +1,5 @@
 {
-  "class": "mkbase.regioSite",
+  "class": "mkbase.regio",
   "type": "BASIC",
   "valueTypes": [
     {
@@ -18,7 +18,7 @@
   "formulas": [
     {
       "valueType": "objectLabel",
-      "template": "regioSite"
+      "template": "regio"
     }
   ],
   "views": [
@@ -122,7 +122,7 @@
   "inherits": "commons.item",
   "data": [
     {
-      "class": "mkbase.regioSite",
+      "class": "mkbase.regio",
       "key": "importId",
       "objects": [
         {
@@ -134,13 +134,7 @@
           "importId": "SUBJECT131024",
           "name": "Internationaal",
           "code": "INT"
-        }
-      ]
-    },
-    {
-      "class": "mkbase.superRegio",
-      "key": "importId",
-      "objects": [
+        },
         {
           "importId": "SUBJECT131012",
           "name": "Benelux",

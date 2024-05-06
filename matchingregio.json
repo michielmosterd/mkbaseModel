@@ -3,11 +3,11 @@
   "type" : "ABSTRACT",
   "valueTypes" : [ ],
   "relations" : [ {
-    "type" : "mkbase.regioSite",
+    "type" : "mkbase.regio",
     "required" : true,
     "multiple" : true,
     "cascadeDelete" : false
   } ],
   "formulas" : [ ],
-  "inherits" : "mkbase.regioSite"
+  "inherits" : "mkbase.regio"
 }

@@ -18,7 +18,7 @@
     "mkbase.match",
     "mkbase.mogelijkeMatch",
     "mkbase.teOnderzoekenMatch",
-    "mkbase.regioSite",
+    "mkbase.regio",
     "mkbase.translationEn",
     "mkbase.translationIt",
     "mkbase.translationFr",
@@ -112,7 +112,7 @@
           "backgroundColor": "#CC3333"
         },
         {
-          "key": "regioSite",
+          "key": "regio",
           "color": "white",
           "backgroundColor": "#FF8598"
         },

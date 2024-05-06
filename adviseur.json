@@ -41,7 +41,7 @@
         "relatedClass": "commons.company"
       },{
       "type" : "RELATION",
-      "relatedClass" : "mkbase.regioSite"
+      "relatedClass" : "mkbase.regio"
     }, {
       "type" : "FIELD",
       "name" : "contractvorm",
@@ -140,7 +140,7 @@
       "header" : false
     }, {
       "type" : "RELATION",
-      "relatedClass" : "mkbase.regioSite"
+      "relatedClass" : "mkbase.regio"
     }, {
       "type" : "FIELD",
       "name" : "profielnummer",

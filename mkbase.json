@@ -83,7 +83,7 @@
             },
             {
               "type": "NAVIGATE",
-              "class": "mkbase.regioSite",
+              "class": "mkbase.regio",
               "icon": "commons#icon-earth"
             }
           ]

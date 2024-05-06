@@ -575,7 +575,7 @@
       "regioNl" : "Regione (NL) *"
     },
     "generalLabels" : { },
-    "class" : "mkbase.regioSite"
+    "class" : "mkbase.regio"
   }, {
     "language" : "it",
     "singular" : "Territorio di Match",

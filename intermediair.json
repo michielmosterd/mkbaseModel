@@ -90,7 +90,7 @@
   ],
   "relations": [
     {
-      "type": "mkbase.regioSite",
+      "type": "mkbase.regio",
       "inherit": "mkbase.superRegio",
       "required": true,
       "multiple": false,

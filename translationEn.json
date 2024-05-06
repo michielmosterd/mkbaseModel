@@ -575,7 +575,7 @@
       "name" : "Region (NL)"
     },
     "generalLabels" : { },
-    "class" : "mkbase.regioSite"
+    "class" : "mkbase.regio"
   }, {
     "language" : "en",
     "singular" : "MatchingRegio",

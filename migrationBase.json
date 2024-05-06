@@ -187,8 +187,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -356,8 +356,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -485,8 +485,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -629,8 +629,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -753,8 +753,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -887,8 +887,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -1136,8 +1136,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -1360,8 +1360,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -1549,8 +1549,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -1703,8 +1703,8 @@
         ],
         "relations": [
           {
-            "source": "regioSite",
-            "target": "mkbase.regioSite",
+            "source": "regio",
+            "target": "mkbase.regio",
             "multiple": false
           },
           {
@@ -2227,7 +2227,7 @@
       {
         "sourceFrom": "29",
         "targetFrom": "mkbase.superRegio",
-        "sourceTo": "regioSite",
+        "sourceTo": "regio",
         "targetTo": "mkbase.superRegio"
       }
     ]

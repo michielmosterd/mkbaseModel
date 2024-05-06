@@ -7,7 +7,7 @@
         "multiple": true
       }
     ],
-    "inherits": "mkbase.regioSite",
+    "inherits": "mkbase.regio",
     "layouts": [
       {
         "labelKey": {

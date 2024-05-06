@@ -194,8 +194,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -327,8 +327,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       }, {
         "source" : "Intermediair",
@@ -556,8 +556,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -745,8 +745,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       }, {
         "source" : "Intermediair",
@@ -870,8 +870,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -1031,8 +1031,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -1160,8 +1160,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -1301,8 +1301,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -1426,8 +1426,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -1559,8 +1559,8 @@
         "type" : "DATE"
       } ],
       "relations" : [ {
-        "source" : "regioSite",
-        "target" : "mkbase.regioSite",
+        "source" : "regio",
+        "target" : "mkbase.regio",
         "multiple" : false
       } ]
     }, {
@@ -1768,7 +1768,7 @@
       } ]
     }, {
       "source" : "27",
-      "target" : "mkbase.regioSite",
+      "target" : "mkbase.regio",
       "fields" : [ {
         "source" : "regioCode",
         "target" : "code",

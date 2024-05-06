@@ -53,7 +53,7 @@
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.regioSite"
+          "relatedClass": "mkbase.regio"
         }
       ],
       "tabPage": false
@@ -341,7 +341,7 @@
         },
         {
           "type": "RELATION",
-          "relatedClass": "mkbase.regioSite"
+          "relatedClass": "mkbase.regio"
         },
         {
           "type": "RELATION",
