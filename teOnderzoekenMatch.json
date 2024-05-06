@@ -15,11 +15,11 @@
   } ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{{teOnderzoekenMatch}}"
+    "formula" : "teOnderzoekenMatch"
   },
   {
     "valueType" : "objectLabel",
-    "formula" : "teOnderzoekenMatch"
+    "formula" : "'teOnderzoekenMatch'"
   } ],
   "views" : [ {
     "defaultView" : true,

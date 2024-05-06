@@ -144,13 +144,13 @@
   "relations": [
     {
       "type": "mkbase.regioSite",
-      "inherit": "mkbase.subRegio",
+      "inherit": "mkbase.superRegio",
       "required": true,
       "multiple": false
     },
     {
       "type": "mkbase.sector",
-      "inherit": "mkbase.subSector",
+      "inherit": "mkbase.superSector",
       "required": true,
       "multiple": true
     }
@@ -224,7 +224,7 @@
         },
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.subSector",
+          "relatedClass": "mkbase.superSector",
           "showTitle": true
         },
         {
@@ -233,7 +233,7 @@
         },
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.subRegio",
+          "relatedClass": "mkbase.superRegio",
           "showTitle": true
         }
       ],

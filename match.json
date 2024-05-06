@@ -13,12 +13,6 @@
     "required" : true,
     "list" : "mkbase.faseVanContact"
   }, {
-    "name" : "sector",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.sector"
-  }, {
     "name" : "overnamesomRange",
     "dataType" : "LIST",
     "enabled" : true,
@@ -29,19 +23,13 @@
     "dataType" : "TEXTBLOCK",
     "enabled" : true,
     "required" : false
-  }, {
-    "name" : "subsector",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.subsector"
   } ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "match"
+    "formula" : "'match'"
   }, {
     "valueType" : "name",
-    "formula" : "{{faseVanContact}}"
+    "formula" : "faseVanContact"
   } ],
   "views" : [ {
     "defaultView" : true,
@@ -79,14 +67,6 @@
     }, {
       "type" : "FIELD",
       "name" : "memoDossier",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector",
       "header" : false
     }, {
       "type" : "FIELD",
@@ -129,14 +109,6 @@
     }, {
       "type" : "FIELD",
       "name" : "memoDossier",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "sector",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "subsector",
       "header" : false
     }, {
       "type" : "FIELD",

@@ -1,12 +1,6 @@
 {
   "class": "mkbase.superSector",
   "type": "ABSTRACT",
-  "relations": [
-    {
-      "type": "mkbase.subSector",
-      "multiple": true
-    }
-  ],
   "inherits": "mkbase.sector",
   "layouts": [
     {
@@ -14,7 +8,7 @@
       "items": [
         {
           "type": "RELATED_VIEW",
-          "relatedClass": "mkbase.subSector",
+          "relatedClass": "mkbase.sector",
           "showTitle": false
         }
       ]

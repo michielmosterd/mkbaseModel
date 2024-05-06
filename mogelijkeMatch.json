@@ -15,7 +15,7 @@
   } ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{{mogelijkeMatch}}"
+    "formula" : "mogelijkeMatch"
   },
   {
       "valueType": "objectLabel",

@@ -1,23 +1,66 @@
 {
-  "class" : "mkbase.memo",
-  "type" : "BASIC",
-  "valueTypes" : [ ],
-  "relations" : [ {
-    "type" : "mkbase.entiteit",
-    "required" : false,
-    "multiple" : false,
-    "cascadeDelete" : false
-  },
-  {
-    "type": "commons.person",
-    "required": true,
-    "defaultValue": "own"
-  }
- ],
- "formulas": [
+  "class": "mkbase.memo",
+  "type": "BASIC",
+  "valueTypes": [
     {
-        "valueType": "objectLabel",
-        "template": "memo"
+      "name": "datum",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": true
+    },
+    {
+      "name": "resultaatContact",
+      "dataType": "LIST",
+      "enabled": true,
+      "required": false,
+      "list": "mkbase.resultaatContact"
+    },
+    {
+      "name": "followUp",
+      "dataType": "DATE",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "opmerking",
+      "dataType": "TEXTBLOCK",
+      "enabled": true,
+      "required": true
+    },
+    {
+      "name": "schrijverMemo",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    },
+    {
+      "name": "kernwoord",
+      "dataType": "TEXT",
+      "enabled": true,
+      "required": false
+    }
+  ],
+  "relations": [
+    {
+      "type": "mkbase.entiteit",
+      "required": false,
+      "multiple": false,
+      "cascadeDelete": false
+    },
+    {
+      "type": "commons.person",
+      "required": true,
+      "defaultValue": "own"
+    }
+  ],
+  "formulas": [
+    {
+      "valueType": "name",
+      "template": "Memo {{datum}}"
+    },
+    {
+      "valueType": "objectLabel",
+      "template": "memo"
     }
   ],
   "views": [
@@ -26,88 +69,122 @@
       "relationView": true,
       "defaultSort": "datum,desc",
       "values": [
-        { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
-        { "name": "datum" },
-        { "name": "resultaatContact" },
-        { "name": "opmerking" },
-        { "type": "RELATION", "relatedClass": "commons.person" }
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entiteit"
+        },
+        {
+          "name": "datum"
+        },
+        {
+          "name": "resultaatContact"
+        },
+        {
+          "name": "opmerking"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "commons.person"
+        }
       ]
     }
   ],
-  "layouts" : [ {
-    "type" : "OBJECT_FORM_DASHBOARD",
-    "items" : [ {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.entiteit"
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "commons.person"
-    }, {
-      "type" : "FIELD",
-      "name" : "datum",
-      "header" : false,
-      "defaultValue": "0"
-    }, {
-      "type" : "FIELD",
-      "name" : "followUp",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "kernwoord",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaatContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "opmerking",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "schrijverMemo",
-      "header" : false
-    } ],
-    "tabPage" : false
-  }, {
-    "type" : "OBJECT_DASHBOARD",
-    "items" : [ {
-      "type" : "FIELD",
-      "name" : "name",
-      "header" : true
-    }, {
-      "type" : "FIELD",
-      "name" : "objectLabel",
-      "header" : false
-    }, {
-      "type" : "RELATION",
-      "relatedClass" : "mkbase.entiteit"
-    }, {
-      "type" : "FIELD",
-      "name" : "datum",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "followUp",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "kernwoord",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "resultaatContact",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "opmerking",
-      "header" : false
-    }, {
-      "type" : "FIELD",
-      "name" : "schrijverMemo",
-      "header" : false
-    } ],
-    "tabPage" : false
-  } ],
-  "inherits" : "mkbase.alleMemoS"
+  "layouts": [
+    {
+      "type": "OBJECT_FORM_DASHBOARD",
+      "items": [
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entiteit"
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "commons.person"
+        },
+        {
+          "type": "FIELD",
+          "name": "datum",
+          "header": false,
+          "defaultValue": "0"
+        },
+        {
+          "type": "FIELD",
+          "name": "followUp",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "kernwoord",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaatContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "opmerking",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "schrijverMemo",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    },
+    {
+      "type": "OBJECT_DASHBOARD",
+      "items": [
+        {
+          "type": "FIELD",
+          "name": "name",
+          "header": true
+        },
+        {
+          "type": "FIELD",
+          "name": "objectLabel",
+          "header": false
+        },
+        {
+          "type": "RELATION",
+          "relatedClass": "mkbase.entiteit"
+        },
+        {
+          "type": "FIELD",
+          "name": "datum",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "followUp",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "kernwoord",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "resultaatContact",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "opmerking",
+          "header": false
+        },
+        {
+          "type": "FIELD",
+          "name": "schrijverMemo",
+          "header": false
+        }
+      ],
+      "tabPage": false
+    }
+  ],
+  "inherits": "commons.item"
 }

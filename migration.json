@@ -101,22 +101,6 @@
         "target" : "branche",
         "type" : "LIST"
       }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
-        "type" : "LIST"
-      }, {
         "source" : "Omschrijvingmail",
         "target" : "omschrijvingMail",
         "type" : "TEXT"
@@ -248,22 +232,6 @@
       }, {
         "source" : "Branche",
         "target" : "branche",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
         "type" : "LIST"
       }, {
         "source" : "Omschrijvingmail",
@@ -441,22 +409,6 @@
       }, {
         "source" : "Onroerendgoed",
         "target" : "onroerendGoed",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
         "type" : "LIST"
       }, {
         "source" : "Omschrijvingmail",
@@ -646,22 +598,6 @@
       }, {
         "source" : "Onroerendgoed",
         "target" : "onroerendGoed",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
         "type" : "LIST"
       }, {
         "source" : "Omschrijvingmail",
@@ -1747,10 +1683,6 @@
         "target" : "faseVanContact",
         "type" : "LIST"
       }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
         "source" : "overnamesomrange",
         "target" : "overnamesomRange",
         "type" : "LIST"
@@ -1758,10 +1690,6 @@
         "source" : "dealinformatie",
         "target" : "dealInformatie",
         "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
       }, {
         "source" : "dossierStart",
         "target" : "start",

@@ -10,6 +10,12 @@
       "required": true
     }
   ],
+  "relations": [
+    {
+      "type": "mkbase.superSector",
+      "multiple": true
+    }
+  ],
   "formulas": [
     {
       "valueType": "objectLabel",
@@ -108,7 +114,7 @@
       ]
     },
     {
-      "class": "mkbase.subSector",
+      "class": "mkbase.sector",
       "key": "importId",
       "objects": [
         {

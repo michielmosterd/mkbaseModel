@@ -21,7 +21,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "adviseur"
+    "formula" : "'adviseur'"
   } ],
   "views" : [ {
     "defaultView" : true,

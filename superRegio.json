@@ -3,7 +3,7 @@
     "type": "ABSTRACT",
     "relations": [
       {
-        "type": "mkbase.subRegio",
+        "type": "mkbase.superRegio",
         "multiple": true
       }
     ],
@@ -12,13 +12,13 @@
       {
         "labelKey": {
           "type": "DATA_CLASS_PLURAL",
-          "name": "mkbase.subRegio"
+          "name": "mkbase.superRegio"
         },
         "type": "OBJECT_DASHBOARD",
         "items": [
           {
             "type": "RELATED_VIEW",
-            "relatedClass": "mkbase.subRegio",
+            "relatedClass": "mkbase.superRegio",
             "showTitle": false
           }
         ],

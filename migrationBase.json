@@ -1141,18 +1141,6 @@
             "multiple": false
           },
           {
-            "source": "Subsector",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
-            "source": "Subsector2",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
             "source": "id",
             "target": "commons.company",
             "prefix": "COMPANY",
@@ -1382,18 +1370,6 @@
             "multiple": false
           },
           {
-            "source": "Subsector",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
-            "source": "Subsector2",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
             "source": "id",
             "target": "commons.company",
             "prefix": "COMPANY",
@@ -1578,18 +1554,6 @@
             "multiple": false
           },
           {
-            "source": "Subsector",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
-            "source": "Subsector2",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
             "source": "id",
             "target": "commons.company",
             "prefix": "COMPANY",
@@ -1749,18 +1713,6 @@
             "multiple": false
           },
           {
-            "source": "Subsector",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
-            "source": "Subsector2",
-            "prefix": "LISTVALUE",
-            "target": "mkbase.sector",
-            "multiple": true
-          },
-          {
             "source": "id",
             "target": "commons.company",
             "prefix": "COMPANY",
@@ -1903,10 +1855,6 @@
           "target" : "faseVanContact",
           "type" : "LIST"
         }, {
-          "source" : "Sector",
-          "target" : "sector",
-          "type" : "LIST"
-        }, {
           "source" : "overnamesomrange",
           "target" : "overnamesomRange",
           "type" : "LIST"
@@ -1914,10 +1862,6 @@
           "source" : "dealinformatie",
           "target" : "dealInformatie",
           "type" : "TEXTBLOCK"
-        }, {
-          "source" : "Subsector",
-          "target" : "subsector",
-          "type" : "LIST"
         }, {
           "source" : "dossierStart",
           "target" : "start",
@@ -2284,7 +2228,7 @@
         "sourceFrom": "29",
         "targetFrom": "mkbase.superRegio",
         "sourceTo": "regioSite",
-        "targetTo": "mkbase.subRegio"
+        "targetTo": "mkbase.superRegio"
       }
     ]
   }

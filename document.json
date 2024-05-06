@@ -30,7 +30,7 @@
     },
     {
       "valueType" : "name",
-      "formula" : "{{titel}}"
+      "formula" : "titel"
     } ],
   "views" : [ {
     "defaultView" : true,

@@ -9,7 +9,12 @@
       "required": true
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "type": "mkbase.superRegio",
+      "multiple": true
+    }
+  ],
   "formulas": [
     {
       "valueType": "objectLabel",
@@ -133,7 +138,7 @@
       ]
     },
     {
-      "class": "mkbase.subRegio",
+      "class": "mkbase.superRegio",
       "key": "importId",
       "objects": [
         {
