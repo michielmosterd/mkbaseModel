@@ -1,12 +1,6 @@
 {
     "class": "mkbase.superRegio",
     "type": "ABSTRACT",
-    "relations": [
-      {
-        "type": "mkbase.superRegio",
-        "multiple": true
-      }
-    ],
     "inherits": "mkbase.regio",
     "layouts": [
       {
